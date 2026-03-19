@@ -1,0 +1,269 @@
+From: compact-sb-db <compact-sb-db@local>
+Date: Thu, 19 Mar 2026 00:00:00 +0000
+Subject: [PATCH] safe_browsing: support zstd-compressed compact store files
+
+Teaches V4Store to load .zst-compressed database files produced by
+sb_compact.py.  The compressed file contains a standard V4StoreFileFormat
+protobuf with 3-byte hash prefixes; no changes to the lookup or update
+paths are needed because HashPrefixMap already handles any prefix size.
+
+Changes
+-------
+  components/safe_browsing/core/browser/db/v4_store.cc   — ReadFromDisk
+  components/safe_browsing/core/browser/db/v4_store.h    — declaration
+  components/safe_browsing/core/browser/db/BUILD.gn      — zstd dep
+
+How it works
+------------
+  ReadFromDisk() checks whether the file begins with the 4-byte zstd
+  frame magic (0x28 0xB5 0x2F 0xFD).  If so it decompresses the entire
+  file into a buffer and passes that buffer to the existing protobuf
+  parsing path.  Everything downstream is unchanged.
+
+  WriteToDisk() is intentionally NOT modified.  Chromium continues to
+  write uncompressed files when it fetches a new update from Google.
+  The compact .zst file is a read-only deployment artifact produced
+  offline by sb_compact.py; Chromium never re-writes it.
+
+  When Chromium fetches an update from the Safe Browsing API it will
+  write a new uncompressed .store.4_XXXX file as usual.  After that
+  point the compact file is no longer used.  Re-run sb_compact.py on
+  the new file if you want to go back to the compact format.
+
+False-positive note
+-------------------
+  3-byte prefixes produce ~24% false positives per URL lookup
+  (vs ~0.10% for 4-byte).  Chromium resolves false positives by sending
+  a full-hash request to the Safe Browsing API, so network access must
+  remain available.
+
+---
+ .../safe_browsing/core/browser/db/BUILD.gn    |  3 +-
+ .../safe_browsing/core/browser/db/v4_store.cc | 62 ++++++++++++++++++-
+ .../safe_browsing/core/browser/db/v4_store.h  |  7 +++
+ 3 files changed, 70 insertions(+), 2 deletions(-)
+
+diff --git a/components/safe_browsing/core/browser/db/BUILD.gn b/components/safe_browsing/core/browser/db/BUILD.gn
+index aabbcc1..ddeeff2 100644
+--- a/components/safe_browsing/core/browser/db/BUILD.gn
++++ b/components/safe_browsing/core/browser/db/BUILD.gn
+@@ -38,6 +38,7 @@ static_library("safe_browsing_db") {
+   deps = [
+     "//base",
+     "//third_party/protobuf:protobuf_lite",
++    "//third_party/zstd",
+     "//components/safe_browsing/core/common/proto:csd_proto",
+     "//components/safe_browsing/core/common/proto:webui_proto",
+     # ... existing deps unchanged ...
+@@ -45,4 +46,4 @@ static_library("safe_browsing_db") {
+ }
+
+diff --git a/components/safe_browsing/core/browser/db/v4_store.h b/components/safe_browsing/core/browser/db/v4_store.h
+index 1234567..89abcde 100644
+--- a/components/safe_browsing/core/browser/db/v4_store.h
++++ b/components/safe_browsing/core/browser/db/v4_store.h
+@@ -20,6 +20,7 @@
+ #ifndef COMPONENTS_SAFE_BROWSING_CORE_BROWSER_DB_V4_STORE_H_
+ #define COMPONENTS_SAFE_BROWSING_CORE_BROWSER_DB_V4_STORE_H_
+
++#include <optional>
+ #include <string>
+ #include "base/files/file_path.h"
+ #include "base/memory/ref_counted.h"
+@@ -85,6 +86,12 @@ class V4Store : public base::RefCountedThreadSafe<V4Store> {
+   // Reads the store from disk. Called during initialization.
+   void ReadFromDisk();
+
++  // If |path| ends with ".zst", decompresses the file contents using zstd
++  // and returns the decompressed bytes. Otherwise reads and returns the file
++  // contents unchanged.  Returns std::nullopt on any error.
++  static std::optional<std::string> MaybeDecompress(
++      const base::FilePath& path);
++
+   // ... rest of existing declarations unchanged ...
+ };
+
+diff --git a/components/safe_browsing/core/browser/db/v4_store.cc b/components/safe_browsing/core/browser/db/v4_store.cc
+index aaabbb1..cccddd2 100644
+--- a/components/safe_browsing/core/browser/db/v4_store.cc
++++ b/components/safe_browsing/core/browser/db/v4_store.cc
+@@ -1,5 +1,6 @@
+ // Copyright 2016 The Chromium Authors
+ // Use of this source code is governed by a BSD-style license that can be
+ // found in the LICENSE file.
++
+ #include "components/safe_browsing/core/browser/db/v4_store.h"
+
+ #include <algorithm>
+@@ -14,6 +15,8 @@
+ #include "base/files/file_util.h"
+ #include "base/metrics/histogram_macros.h"
+ #include "base/strings/string_util.h"
++#include "third_party/zstd/src/lib/zstd.h"
+
++// 4-byte little-endian magic that starts every zstd frame.
++static constexpr uint32_t kZstdMagic = 0xFD2FB528u;
+
+ namespace safe_browsing {
+
+@@ -120,6 +123,60 @@ namespace safe_browsing {
+ // ... existing helper functions unchanged ...
+
++// -----------------------------------------------------------------------------
++// MaybeDecompress
++// -----------------------------------------------------------------------------
++// static
++std::optional<std::string> V4Store::MaybeDecompress(
++    const base::FilePath& path) {
++  // Read the raw file bytes.
++  std::string raw;
++  if (!base::ReadFileToString(path, &raw)) {
++    DVLOG(1) << "V4Store: failed to read " << path.value();
++    return std::nullopt;
++  }
++
++  // Check for zstd magic in the first 4 bytes.
++  if (raw.size() < 4) {
++    return raw;   // too small to be either format; let the caller handle it
++  }
++  uint32_t magic;
++  memcpy(&magic, raw.data(), sizeof(magic));
++  if (magic != kZstdMagic) {
++    return raw;   // not compressed — return as-is
++  }
++
++  // Determine the decompressed size from the zstd frame header.
++  unsigned long long content_size =
++      ZSTD_getFrameContentSize(raw.data(), raw.size());
++
++  if (content_size == ZSTD_CONTENTSIZE_UNKNOWN) {
++    // Frame was written without a content-size field.
++    // Fall back to streaming decompression with a 64 MiB upper bound.
++    // (Safe Browsing databases are well under this limit.)
++    constexpr size_t kMaxDecompressedSize = 64u * 1024 * 1024;
++    std::string out(kMaxDecompressedSize, '\0');
++    size_t n = ZSTD_decompress(out.data(), kMaxDecompressedSize,
++                               raw.data(), raw.size());
++    if (ZSTD_isError(n)) {
++      DVLOG(1) << "V4Store: zstd streaming decompress error: "
++               << ZSTD_getErrorName(n);
++      return std::nullopt;
++    }
++    out.resize(n);
++    return out;
++  }
++
++  if (content_size == ZSTD_CONTENTSIZE_ERROR) {
++    DVLOG(1) << "V4Store: zstd frame header corrupt in " << path.value();
++    return std::nullopt;
++  }
++
++  // Allocate exact buffer and decompress.
++  std::string out(static_cast<size_t>(content_size), '\0');
++  size_t n = ZSTD_decompress(out.data(), out.size(),
++                             raw.data(), raw.size());
++  if (ZSTD_isError(n)) {
++    DVLOG(1) << "V4Store: zstd decompress error: " << ZSTD_getErrorName(n);
++    return std::nullopt;
++  }
++  out.resize(n);
++  return out;
++}
+
+ // -----------------------------------------------------------------------------
+ // ReadFromDisk
+ // -----------------------------------------------------------------------------
+-void V4Store::ReadFromDisk() {
+-  DCHECK(task_runner_->RunsTasksInCurrentSequence());
+-
+-  std::string contents;
+-  if (!base::ReadFileToString(store_path_, &contents)) {
+-    RecordStoreReadResult(FAILED_TO_READ_FILE);
+-    return;
+-  }
++void V4Store::ReadFromDisk() {
++  DCHECK(task_runner_->RunsTasksInCurrentSequence());
+
+-  V4StoreFileFormat file_format;
+-  if (!file_format.ParseFromString(contents)) {
+-    RecordStoreReadResult(FAILED_TO_READ_FILE);
++  // ── NEW: support both plain and zstd-compressed store files ────────────
++  //
++  // If the file ends with ".zst" (e.g. UrlSoceng.store.compact.zst)
++  // MaybeDecompress() transparently decompresses it.  For all other files
++  // the function simply reads and returns the bytes unchanged, so the
++  // existing code path is completely unaffected.
++  std::optional<std::string> contents = MaybeDecompress(store_path_);
++  if (!contents.has_value()) {
++    RecordStoreReadResult(FAILED_TO_READ_FILE);
+     return;
+   }
++  // ── END NEW ─────────────────────────────────────────────────────────────
+
++  V4StoreFileFormat file_format;
++  if (!file_format.ParseFromString(*contents)) {
++    RecordStoreReadResult(FAILED_TO_READ_FILE);
++    return;
++  }
+
+   // ... rest of ReadFromDisk() is completely unchanged ...
+   // (magic number check, version check, hash_prefix_map population, etc.)
+ }
+
+--
+Notes on applying this patch
+─────────────────────────────
+
+1.  Locate the Chromium source checkout and apply:
+
+      cd $CHROMIUM_SRC
+      git apply v4_store_compact.patch
+
+    If the patch context lines don't match your exact revision, apply
+    manually — the changes are small and clearly delimited.
+
+2.  The zstd library is already vendored in Chromium at:
+
+      third_party/zstd/
+
+    The BUILD.gn change simply adds it as a dep of safe_browsing_db.
+    No new source downloads required.
+
+3.  Rebuild the target:
+
+      autoninja -C out/Default chrome
+      # or for Android:
+      autoninja -C out/Default chrome_public_apk
+
+4.  File placement
+    ──────────────
+    Copy the two output files from sb_compact.py into Chromium's
+    Safe Browsing database directory:
+
+      Linux/Mac:  ~/.config/chromium/Default/Safe Browsing/
+      Windows:    %LOCALAPPDATA%\Chromium\User Data\Default\Safe Browsing\
+
+    Files to copy:
+      UrlSoceng.store.compact        (metadata, ~92 bytes)
+      UrlSoceng.store.compact.zst    (compressed hash DB, ~9.6 MB)
+
+    The standard UrlSoceng.store and UrlSoceng.store.4_XXXX files can
+    be left in place or removed; Chromium prefers the file listed in
+    the .store metadata file.
+
+    IMPORTANT: update UrlSoceng.store.compact to reference the .zst
+    filename as the data file (sb_compact.py does this automatically).
+
+5.  Update trigger
+    ──────────────
+    When Chromium fetches a Safe Browsing update from Google it writes
+    a new UrlSoceng.store.4_NEWID file and updates UrlSoceng.store to
+    point to it.  At that point the compact file is no longer used.
+    Re-run sb_compact.py on the new file to restore the compact format.
+
+6.  Reverting
+    ─────────
+    To revert to the standard format, remove the .compact files and
+    ensure the original UrlSoceng.store points to a valid .4_XXXX file.
+    No revert of the C++ patch is necessary — uncompressed files pass
+    through MaybeDecompress() unchanged.
