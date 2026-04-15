@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "智能安全性"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "監視結果"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "已封鎖惡意檔案。[檔案：<<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "已封鎖惡意網絡。[網絡：<<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "已封鎖惡意程序。[程序：<<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "顯示清單"
+
+msgid "COM_SID_OK"
+msgstr "確定"
+
+msgid "COM_SID_YES"
+msgstr "是"
+
+msgid "COM_SID_NO"
+msgstr "否"
+
+msgid "COM_SID_CLOSE"
+msgstr "關閉"
+
+msgid "COM_SID_CANCEL"
+msgstr "取消"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "您要傳送此惡意程式檔案到伺服器，以協助我們提升 Samsung Smart TV 的品質嗎？"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "錯誤"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "發生網絡錯誤。請稍後再試。"
+
+msgid "COM_SID_ALWAYS"
+msgstr "保持"
+
+msgid "COM_SID_ONCE"
+msgstr "一次"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "您要傳送此惡意程式檔案到伺服器，以協助我們提升 Samsung The Wall 的品質嗎？"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "已封鎖：<<A>> 個項目"

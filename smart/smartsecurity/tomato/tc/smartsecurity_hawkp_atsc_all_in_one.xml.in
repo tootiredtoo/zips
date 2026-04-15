@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TestCase Name="SMARTSECURITY_TEST" Description="SMARTSECURITY test" LogFilter="smartsecurity:* TOMATOCLIENT:*">
+	<Procedure Number="1" Description="Execute SMARTSECURITY Test Case">
+		<Step Name="execute_smartsecurity_UnitTest" Type="SHELL" Command="@TZ_SYS_BIN@/SfTestApp">
+		</Step>
+	</Procedure>
+</TestCase>

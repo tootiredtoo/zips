@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "الأمان الذكي"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "نتائج المراقبة"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "‏‫تم حظر ملف ضار. [الملف: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "‏‫تم حظر شبكة ضارة. [الشبكة: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "‏‫تم حظر عملية ضارة. [العملية: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "عرض القائمة"
+
+msgid "COM_SID_OK"
+msgstr "موافق"
+
+msgid "COM_SID_YES"
+msgstr "نعم"
+
+msgid "COM_SID_NO"
+msgstr "لا"
+
+msgid "COM_SID_CLOSE"
+msgstr "إغلاق"
+
+msgid "COM_SID_CANCEL"
+msgstr "إلغاء الأمر"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "هل تريد إرسال ملف البرامج الضارة هذا إلى الخادم لمساعدتنا على تحسين Samsung Smart TV؟"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "خطأ"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "حدث خطأ في الشبكة. يرجى إعادة المحاولة فيما بعد."
+
+msgid "COM_SID_ALWAYS"
+msgstr "دومًا"
+
+msgid "COM_SID_ONCE"
+msgstr "مرة"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "هل تريد إرسال ملف البرامج الضارة هذا إلى الخادم لمساعدتنا في تحسين Samsung The Wall؟"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "المحظور: <<A>> عنصر"

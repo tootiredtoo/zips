@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Haumaru Smart"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Ngā Hua Aroturuki"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "Kua āraia he kōnae kino. [Kōnae: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "Kua āraia tētahi whatunga kino. [Whatunga: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "Kua āraia he tukanga kino. [Tukanga: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Whakaatu Rārangi"
+
+msgid "COM_SID_OK"
+msgstr "ĀE"
+
+msgid "COM_SID_YES"
+msgstr "Āe"
+
+msgid "COM_SID_NO"
+msgstr "Kāo"
+
+msgid "COM_SID_CLOSE"
+msgstr "Kati"
+
+msgid "COM_SID_CANCEL"
+msgstr "Whakakore"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Tukua tēnei kōnae kino ki te tūmau hei āwhina kia pai ake ngā Smart TV o Samsung?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Hapa"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "I pā mai he hapa whatunga. Me ngana anō ā muri ake."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Rite tonu"
+
+msgid "COM_SID_ONCE"
+msgstr "Wā kotahi"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Me tuku tēnei kōnae pūmanawakino ki te tūmau kia āwhinatia mātou ki te whakapai i Samsung The Wall?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Kua āraia: Ngā tuemi <<A>>"

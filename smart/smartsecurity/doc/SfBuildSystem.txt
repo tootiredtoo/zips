@@ -1,0 +1,5 @@
+/*! @page "Build system" Security Framework [SF] build system information
+	@tableofcontents
+
+		@section SfBuildSystem 1. Build system information
+*/

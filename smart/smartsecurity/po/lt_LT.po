@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Išmanioji sauga"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Stebėjimo rezultatai"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "Kenkėjiškas failas užblokuotas. [Failas: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "Kenkėjiškas tinklas užblokuotas. [Tinklas: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "Kenkėjiškas procesas užblokuotas. [Procesas: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Rodyti sąrašą"
+
+msgid "COM_SID_OK"
+msgstr "Gerai"
+
+msgid "COM_SID_YES"
+msgstr "Taip"
+
+msgid "COM_SID_NO"
+msgstr "Ne"
+
+msgid "COM_SID_CLOSE"
+msgstr "Uždaryti"
+
+msgid "COM_SID_CANCEL"
+msgstr "Atšaukti"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Ar norite siųsti šį kenkėjiškos programos failą į serverį, kad padėtumėte gerinti „Samsung Smart TV“?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Klaida"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "Įvyko tinklo klaida. Vėliau bandykite vėl."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Visada"
+
+msgid "COM_SID_ONCE"
+msgstr "Kartą"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Ar norite siųsti šį kenkėjiškos programos failą į serverį, kad padėtumėte gerinti „Samsung The Wall“?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Blokuojama: <<A>> element."

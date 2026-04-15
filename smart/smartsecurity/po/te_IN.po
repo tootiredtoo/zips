@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "తెలివైన సంరక్షణ"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "మానిటరింగ్ ఫలితాలు"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "హానికరమైన ఫైల్ నిరోధించబడింది. [ఫైల్: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "హానికరమైన నెట్‌వర్క్ నిరోధించబడింది. [నెట్‌వర్క్: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "హానికరమైన ప్రాసెస్ నిరోధించబడింది. [ప్రాసెస్: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "పట్టికను చూపించు"
+
+msgid "COM_SID_OK"
+msgstr "సరే"
+
+msgid "COM_SID_YES"
+msgstr "అవును"
+
+msgid "COM_SID_NO"
+msgstr "లేదు"
+
+msgid "COM_SID_CLOSE"
+msgstr "మూసివేయి"
+
+msgid "COM_SID_CANCEL"
+msgstr "రద్దు చేయి"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Samsung Smart TVలను మెరుగుపరచడంలో మాకు సహాయపడటం కోసం ఈ మాల్వేర్ ఫైల్‌ని మీరు సర్వర్‌కు పంపాలనుకుంటున్నారా?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "దోషం"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "నెట్‌వర్క్ దోషం సంభవించింది. దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి."
+
+msgid "COM_SID_ALWAYS"
+msgstr "ఎల్లప్పుడూ"
+
+msgid "COM_SID_ONCE"
+msgstr "ఒకసారి"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Samsung The Wallను మెరుగుపరచడంలో మాకు సహాయపడటం కోసం ఈ మాల్వేర్ ఫైల్‌ని మీరు సర్వర్‌కు పంపాలనుకుంటున్నారా?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "నిరోధించబడింది: <<A>> అంశాలు"

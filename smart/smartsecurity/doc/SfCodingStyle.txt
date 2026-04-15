@@ -1,0 +1,1509 @@
+/*! @page "Code Style" Security Framework [SF] coding style
+	@tableofcontents
+
+	@section PfProgramLayoutRules      1. Program layout rules
+		@subsection PfSourceFileStruct 	  1.1 Source file structure
+			@subsubsection PfCHeaderStruct 	  1.1.1 C header file structure
+				Header file (*.h) has the same structure as the template below:
+				@code{.c}
+					// Heading comments
+					#ifndef HEADER_FILE_ID
+					#define HEADER_FILE_ID
+					...
+					#endif  /* !HEADER_FILE_ID */
+				@endcode
+
+			@subsubsection PfCImplStruct 	  1.1.2 C implementation file structure
+				For C language, Implementation the (*.c) has same structure as the template below:
+				@code{.c}
+					// Heading comments
+					#include <header_file.h>
+					#include <stdio.h>
+					#include <stdlib.h>
+					// Global variable definitions
+					// Imported variable declarations
+					// Imported function declarations
+					// Local #defines
+					// Local constant definitions
+					// Local typedefs
+					// Local function declarations
+					// Function definitions
+				@endcode
+
+			@subsubsection PfCppHeaderStruct  1.1.3 C++ header file structure
+				In case of C++ language, header file (*.h) has same structure as given in example
+				below. As a Rule, Data member/Member function are not defined in header file.
+				However, there is exception in case of template class and inline function.
+				@code{.cpp}
+					// Heading comments(Project Comment, File Comment)
+					#ifndef _HEADER_FILE_ID_
+					#define _HEADER_FILE_ID_
+					#include <stdio.h>
+					#define SAMPLE_DEFINE_CONSTANT 5
+					// enums
+					// typedefs
+					// constant definitions
+					// forward declarations
+					// class declarations
+    					// public
+    					// protected
+    					// private
+						// Inline/template implementation includes
+					#endif /* !_HEADER_FILE_ID_ */
+				@endcode
+			@subsubsection PfCppimplStruct    1.1.4 C++ implementation file structure
+				In case of C++ language, Implementation file (*.cpp file) has same structure as
+				shown in example.
+				@code{.cpp}
+					// Heading comments(Project Comment, File Comment)
+					// #includes
+					// Global variable definitions 
+					// When using // C code
+					// Imported variable declarations 
+					// When using after connecting with // C code
+					// Imported function declarations 
+					// When using after connecting with // C code
+					// Local #defines                          
+					// It is recommended to define Constant which used const than that of #define
+					// text in // C++
+					// Local constant definitions
+					// Local function prototypes         
+					// When using // C style code
+					// Class definition
+				@endcode
+
+			\b Global \b Variable. Describes the global variables provided in this file. All global
+			variables \b MUST be initialized. Describe variables and functions declared as extern.
+			It is better to specify the location (file name) of the variable or function declared as
+			extern.\n
+
+			\b Function \b Definition. Describes about the function to be implemented in this file.
+			As a default, it is recommended to define using breath-first method, that is defining
+			from upper part of the function hierarchy to lower part of the hierarchy, however, as
+			per the requirement, alphabetic order or depth-first mode can be also used.\n
+			\b Heading \b Comments. In heading comments Draft the information (File name, content,
+			drafter, date, modified content etc) for header and implementation file.\n
+			\b Header \b File \b ID. Header file ID is used to prevent inclusion of header file for
+			many times. HEADER_FILE_ID has _[filename]_H_ format. In case of \c core.h,
+			it becomes "_CORE_H_".\n
+			\b Includes. Do not create the header file(s) named as library which is generally
+			used.\n
+			\b Defines. Defines macro.\n
+			\b Enumeration. Defines enumeration types.\n
+			\b Typedef. Declares user definition form as \c typedef.\n
+			\b Constant \b Definitions. Declares constant. However, it is recomended to declare the
+			constant inside related class.\n
+			\b Variable \b Declaration. Declares external variable.\n
+			\b Forward \b Declaration. If class  B is included inside class A as a pointer, and  in
+			the declaration of class A in the header file, no method/variable of class B is
+			accessed, then, even if only forward declaration is done in front of class A (forward
+			declaration/ex: \c Class \c B;) without including Declaration of class B, the class A can
+			be compiled to/as target file. In case of using Include, Compile time increases because
+			of dependency between header files and processing of all the header files included.
+			Accordingly, when given conditions are satisfied, corresponding Class should be
+			declared in forward declarations section.\n
+			\b Class \b Declarations. Declares class. Method/Member variable inside class sequenced
+			in \c public, \c protected, \c private order.\n
+
+			\b Inline/Template \b Implementation \b Includes. When inline, template implementation
+			is not included in in Class declaration and are stored in a separate file, then,
+			corresponding files are included here.\n
+			\b Class \b Definition. Class methods are defined in this file. The class methods are 
+			defined in the order of their declarations in the class declaration(in the header file).
+
+		@subsection PfClassStructure   	  1.2 Class structure
+			@subsubsection PfClassDeclaration	1.2.1 Class declaration
+				Method given in following example is followed while declaring a new class:
+				@code{.cpp}
+					// heading comments
+					#ifndef _EXAMPLE_NAME_H_
+					#define _EXAMPLE_NAME_H_
+
+					// system includes
+					// project includes
+					// local includes
+					// forward references
+
+					class ExampleName
+					{
+						public:	// lifecycle
+							ExampleName(); // default constructor
+							ExampleName(const ExampleName&); // copy constructor
+							~ExampleName(); // destructor
+							// operators
+							ExampleName& operator=(ExampleName&); // asignment operator
+							// operations
+							// access
+							// inquiry
+						protected:
+						private:					
+					};
+
+					// inline methods
+					// external references
+
+					#endif /* !_EXAMPLE_NAME_H_ */
+				@endcode
+			@subsubsection PfClassDefinition	1.2.2 Class definition
+				Method given in following example is followed while defining a new class:
+				@code{.cpp}
+					#include "ExampleName.h"  // class implemented
+					
+					/*
+					********************************************************************************
+					*
+					********************************************************************************
+					*/
+					ExampleName::ExampleName()
+					{
+						// TODO: To implement
+					}
+					
+					/*
+					********************************************************************************
+					*
+					********************************************************************************
+					*/
+					ExampleName::ExampleName(const ExampleName&)
+					{
+						// TODO: To implement
+					}
+					
+					/*
+					********************************************************************************
+					*
+					********************************************************************************
+					*/
+					ExampleName::~ExampleName()
+					{
+						// TODO: To implement
+					}
+
+					/*
+					********************************************************************************
+					*
+					********************************************************************************
+					*/
+					ExampleName& ExampleName::operator=(ExampleName&)
+					{
+					   return *this;
+					}
+
+					// operations
+					// access
+					// inquiry
+
+					// protected
+					// private
+  				@endcode
+  			@subsubsection PfCOrderDefinition	1.2.2 Class definition order
+  				Class definition is done in public, protected, private section order.
+  				@code{.cpp}
+  					#ifndef _EXAMPLE_NAME_H_
+					#define _EXAMPLE_NAME_H_
+					// system includes
+					// project includes
+					// local includes
+					// forward references
+
+					#ifdef _TYPE_H_
+					#include <math.h>
+					#include "inc/myheader.h"
+					#endif /* !_TYPE_H_ */
+
+					#endif /* !_EXAMPLE_NAME_H_ */
+  				@endcode
+  				Class definition example:
+  				@code{.cpp}
+  					class Date
+					{
+     					public:
+           					Date();    // creater
+           					Date(int year)
+     					protected:
+           					void  print();
+     					private:
+           					void draw();
+					};
+  				@endcode
+
+	@section PfNamingConventions       2. Naming conventions
+		@subsection PfFileNamingConv	  2.1 File naming convention
+			@subsubsection PfFNamingStyle 	  2.1.1 File naming style
+				When [base name] has to be in more than one words, the new word starts with capital
+				letter. Example: ProcessContext.cpp.
+			@subsubsection PfFNamingLength	  2.1.2 File name length
+				When Name is prescribed as a Verb and Noun, it is sorted in [Verb][Name] sequence
+				and more than 4 words are not combined.
+			@subsubsection PfFPrefoxName 	  2.1.3 File name prefix
+				To avoid the overlapping of File names between different Blocks or Modules,
+				put a prefix. Example: [Layer][Prefix][FunctionSpecificName]
+			@subsubsection PfFClassMap		  2.1.4 File name and Class name
+				As a rule, Class definition is implemented in one File and follows with the Class
+				name. Example: ProcessContext.h, ProcessContext.cpp, \c class \c ProcessContext;
+			@subsubsection PfFClassSec 		  2.1.5 File separation
+				When Class definition is too big to be implemented in one file then, it is divided
+				into many files and name which distinguishes it are attached.
+				Example: ProcessProtector_SectionName.cpp
+
+		@subsection PfFuncNamingConv	  2.2 Function naming convention
+			@subsubsection PfFuncAbbr 		  2.2.1 General function name
+				It is a rule not to use abbreviation for function name, however, commonly used
+				acronyms in the field are used in capital letters.\n
+				Good example:
+				@code{.c}
+					/*
+					********************************************************************************
+					*
+					********************************************************************************
+					*/
+					int Factorial(int number)
+					{
+    					int intermediateResult = 1;
+    					for(int factor =2; factor <= number; factor++)
+    					{
+        					intermediateResult = ntermediateResult * factor;
+     					}
+     					return intermediateResult;
+					}
+
+					/*
+					********************************************************************************
+					*
+					********************************************************************************
+					*/
+					void GetMP3FileLength(char* file)
+					{
+						// TODO: To implement this function
+    				}
+				@endcode
+				Bad example:
+				@code{.c}
+					/*
+					********************************************************************************
+					*
+					********************************************************************************
+					*/
+					int abc(int number)
+					{
+    					int intermediateResult = 1; 
+    					for(int factor =2; factor <= number; factor++)
+    					{
+        					intermediateResult = ntermediateResult * factor;
+     					}
+     					return intermediateResult;
+					}
+
+					/*
+					********************************************************************************
+					*
+					********************************************************************************
+					*/
+					void temp(char* file)
+					{
+						// TODO: To implement this function
+    				}
+				@endcode
+			@subsubsection PfFuncNameCor 		  2.2.2 Function name grammar
+				When Name is prescribed in Verb and Noun, it is sorted in [Verb][Name] sequence and
+				more than 4 words are not combined.\n
+				Good example:
+				@code{.c}
+					/*
+					********************************************************************************
+					*
+					********************************************************************************
+					*/
+					void ExpandStorage(void)
+					{
+    					int array[100];
+    					for(int index = 0; index <= 100; index++)
+    					{
+        					aarray[index] = 1 * index;
+     					}
+     					// drop
+					}
+				@endcode
+				Bad example:
+				@code{.c}
+					void storageexpand (void) 
+					{
+    					int array[100];
+    					for(int index = 0; index <= 100; index++)
+    					{
+        					aarray[index] = 1 * index;
+     					}
+     					// drop
+					}
+				@endcode
+			@subsection PfFuncNameLength	  2.2.3 Length of the function name
+				Function name must not exceed 31 characters. (The number of characters can be
+				tailored depending on project attribute).
+			@subsection PfFuncNameCLang 	  2.2.4 Function name in C language
+				In case of C language, Function name begins with a Capital letter.\n
+				Good example:
+				@code{.c}
+					// extern temporary variable
+					extern char temp;
+
+					// extern function definition
+					extern void Factorial (void);
+
+					/*
+					********************************************************************************
+					*
+					********************************************************************************
+					*/   
+					void main (void) 
+					{                           
+					      temp = 32;      
+					      Factorial();
+					}
+
+					/*
+					********************************************************************************
+					*
+					********************************************************************************
+					*/
+					void Factorial (void) 
+					{
+					      int intermediateResult = 1;
+					      // drop
+					}
+				@endcode
+				Bad example:
+				@code{.c}
+					extern char temp;                     
+					extern void fac(void);
+
+					/*
+					********************************************************************************
+					*
+					********************************************************************************
+					*/
+					void main(void)
+					{                           
+      					temp = 32;
+      					fac();
+					}
+					
+					/*
+					********************************************************************************
+					*
+					********************************************************************************
+					*/
+					void fac(void)
+					{
+      					int intermediateResult = 1;
+      					// drop
+					}
+				@endcode
+
+			@subsubsection PfFMultiWord 	  2.2.5 Multiword function name
+				When Function name has to be in more than one words, new words starts with capital
+				letter.
+			@subsubsection PfFPrefixName 	  2.2.6 Prefix in the function name
+				Prefix for showing the block or module \b MUST be used for external function.
+
+			@subsubsection PfFCppFuncName 	  2.2.7 Function name in C++ language
+				In case of C++ language, first character of the first word of Member function name
+				of a class, is written in capital letter. However, in case such of using prefix such
+				as t_ for protected, m_ for private etc, small letter can be used.\n
+				Good example:
+				@code{.cpp}
+					class Date
+					{
+     					int m_year;
+     					int m_month
+     					int m_day;
+
+     					public:
+          					int GetYear();
+          					void SetDate(int year, int month, int day);
+					}
+				@endcode
+				Bad example:
+				@code{.cpp}
+					class Date
+					{
+					    int year;
+					    int month
+					    int day;
+
+     					public:
+          					int Year();
+          					void sDate(int year, int month, int day);
+					}
+				@endcode
+
+			@subsubsection PfFClSGName 	      2.2.8 Class set/get member function
+				For the Member function which does get/set of Data member of Class, get/set is
+				attached before the data member name. Here, Data member prefix can be removed.
+
+			@subsubsection PfFClBGName 	      2.2.9 Class status function
+				‘is’ is used instead of ‘get’ when Data member among the Member function accessing
+				to Data member of class is of Boolean type.
+
+		@subsection PfVarNamingConv	      2.3 Variable/parameter naming convention
+			@subsubsection PfVPName			  2.3.1 General variable/parameter naming rule
+				Variable name and Parameter name of a function starts with small letter.
+
+			@subsubsection PfVPName			  2.3.2 Variable/parameter name length
+				Variable name and Parameter name of a function must not exceed 31 characters. (The
+				number of characters can be tailored depending on project attribute).
+
+			@subsubsection PfVPMName		  2.3.3 Variable/parameter multiword name
+				When Variable name and Parameter name of a function is of more than one word,
+				new words starts with Capital letter.
+				@code{.c}
+					char* pChar		// Pointer for char
+					char** ppChar	// 2 dimensional Pointer of char sorting
+					bool holdOn; 	// boolean
+					Uint16 receiveTID; // 16 bit unsigned int
+				@endcode
+
+			@subsubsection PfVPMName		  2.3.4 Variable/parameter abbreviation
+				It is a rule to not use abbreviation for Variable/Parameter name of a function,
+				however, Acronyms commonly used in Industry are used by writing it all in Capital
+				letters.
+
+			@subsubsection PfVarForm		  2.3.5 Variable/parameter name format
+				Variable name and Parameter name of Function follows Hungarian notation as a
+				default. That is, they have [prefix][qualifier] format.
+				For global variable 'g_' prefix should be used as well as 's_' for static.
+				Example:
+				@code{.c}
+					ProcessContext g_currentProcess;
+					ProcessContext* g_pCurrentProcess;
+					static ProcessContext* s_pCurrentProcess;
+				@endcode
+
+		@subsection PfTypeNamingConv      2.4 Type naming convention
+			@subsubsection PfTypeDupl		  2.4.1 User defined types duplication
+				User defined type is not defined in duplication (repeated).\n
+				Good example:
+				@code{.c}
+					#define T31 unsigned char // OK 
+
+					typedef int MyInt;
+
+					/*
+					********************************************************************************
+					*
+					********************************************************************************
+					*/
+					void Factorial(int number)
+					{
+    					double MyVar;  // OK
+					}
+				@endcode
+				Bad example:
+				@code{.c}
+					#define T30 char // Violation 
+					#define INT int // Violation 
+
+					typedef int MyInt;
+
+					/*
+					********************************************************************************
+					*
+					********************************************************************************
+					*/
+					void foo() 
+					{ 
+    					double MyInt; // Violation
+					}
+				@endcode
+			@subsubsection PfTypeNLength 	  2.4.2 Type name length
+				User defined Type name must not exceed 31 characters.
+
+			@subsubsection PfTypeNStart		  2.4.3 Type name syntax
+				User defined Type name starts with Capital letter.
+
+			@subsubsection PfTypeNameMul	  2.4.4 Multiword type name
+				When User defined Type name is of more than two words, new words start with capital
+				letter.
+
+			@subsubsection PfTypeAbstr	  	  2.4.5 Type as an abstraction
+				As user defined type is an abstraction for instances created from corresponding user
+				defined type, that name is not written in multiple times.\n
+				Good example:
+				@code{.c}
+					typedef struct
+					{
+    					int size;
+    					char* name;
+					} TreeNode;	
+
+					TreeNode  Tree;
+				@endcode
+				Bad example:
+				@code{.c}
+					struct TreeNode
+					{
+						int size;
+						char* name;
+					};
+
+					struct TreeNode Tree;
+				@endcode
+
+			@subsubsection PfTypeES	  	  2.4.6 Type definition under enumerations and structures
+				In case of struct, union, enum, new User defined type is made and used by using
+				typedef keyword.
+
+			@subsubsection PfTypeExt  	  2.4.7 External type definition
+				For the user defined type defined externally, use a prefix which shows the block or
+				module.
+
+			@subsubsection PfTypeEn  	  2.4.8 Type definition for enumerations
+				While defining each Enumerated constant of Enumerated type, name of enumerated type
+				is used as prefix and indicated that it is Type of corresponding enumerated
+				constant.
+
+			@subsubsection PfTypeEnP  	  2.4.9 Constant name of enumeration defined as new type
+				Enumerated constant name of enumerated type consists of all capital letters, numbers
+				and ‘_’ is used between each word.\n
+				Good example:
+				@code{.c}
+					typedef enum
+					{
+					    COLOR_INVALID,
+					    COLOR_RED,
+					    COLOR_GREEN,
+					    COLOR_BLUE
+					} COLOR;
+				@endcode
+				Bad example:
+				@code{.c}
+					typedef enum
+					{
+					    Invalid,
+					    Red,
+					    Green,
+					    Blue
+					} Color;
+				@endcode
+
+		@subsection PfConstNamingConv     2.5 Constant naming convention
+			@subsubsection PfConstName  	  2.5.1 Constant name rule
+				All of Constant and Macro name consists of capital letters, numbers and ‘_’.
+				However, macro which redefines C/C++ language keyword and Constant used in function
+				parameter is an exception.\n
+				Good example:
+				@code{.c}
+					const int MAX_POOL_LEN = 128;
+					#define ERR_MSG “Oops!”
+					#define new DEBUG_NEW
+					#define EXTERN extern “C”
+					void foo(const int MAX_POOL_LEN);
+				@endcode
+				Bad example:
+				@code{.c}
+					const  int  Max_pool_len = 128;
+					#define  ErrMsg “Oops!”
+				@endcode
+			@subsubsection PfConstWS 	  	  2.5.2 Constant and macro word separator
+				When Constant and Macro consists of more than 2 words, ‘_’ is used between words.
+
+			@subsubsection PfConstNL  	  	  2.5.3 Constant and macro name length
+				Constant and Macro name must not exceed 31 characters.
+
+		@subsection PfClassNamingConv     2.6 Class naming convention
+			@subsubsection PfClassName 	  	  2.6.1 Class name rule
+				Class name starts with a capital letter.
+
+			@subsubsection PfClassMWName  	  2.6.2 Class multiword name
+				When there are many words in a Class name, first alphabet of each word is in capital
+				letter.
+
+			@subsubsection PfClassAbbr 	  	  2.6.3 Abbreviation in class name
+				It is a rule to not use abbreviation for Class name, however, acronyms commonly used
+				in Industry are used by writing it all in Capital letters.\n
+				Good example:
+				@code{.cpp}
+					class Date;
+					class Customer;
+					class OderItem;
+					class MPEG;
+				@endcode
+				Bad example:
+				@code{.cpp}
+					class date;
+					class customer;
+					class Oderitem;
+					class Oder_Item;
+					class Mpeg;
+				@endcode
+
+			@subsubsection PfClassInt  	  	  2.6.4 Private internal class
+				Class name as a rule is written in Noun format and, except private internal class,
+				other internal classes starts with 2 underscores.
+
+			@subsubsection PfClassMNR 	  	  2.6.5 Class member naming rule
+				Data member name starts with ‘m_’ to avoid the duplication of other data member
+				names and the first alphabet of the word begins with capital letter. ‘m_’is  placed
+				before other prefixes.\n
+				Good example:
+				@code{.cpp}
+					class Person
+					{
+					    int m_nAge;
+					    std::string m_stringName;
+					    Person* m_pFather;
+					    Person* m_pMother; 
+					}
+				@endcode
+				Bad example:
+				@code{.cpp}
+					class Person
+					{
+					    int age;
+					    std::string name;
+					    Person* father;
+					    Person* mother;
+					}
+				@endcode
+			@subsubsection PfClassTemp  	  2.6.6 Template class definition
+				While declaring Template, avoid to use Template parameter with just a single
+				character and, Use the word which shows the meaning of Template parameter
+				distinctly.\n
+				Good example:
+				@code{.cpp}
+					template<class Type, int Size>
+					class Array
+					{
+					    public:
+					    template<class Other>
+					    void Copy(Other o)
+					    {
+					        // TODO: implement
+					    }
+					    private:
+					    Type __data[Size];
+					};
+				@endcode
+				Bad example:
+				@code{.cpp}
+					template<class T, class U>
+					class Bogus
+					{
+					     private:
+					     T __value;
+					     U __other;
+					};
+				@endcode
+
+	@section PfCommentProcessingRules  3. Comment processing rules
+		@subsection PfBlockCommentRule	  3.1 Block comment processing
+			The following example describes how to use block comments:
+			@code{.c}
+				/* When comment can be written in one line */
+
+				/*
+				* When it has
+				* to be expressed
+				* in more than
+				* one line
+				*/
+			@endcode
+
+		@subsection PfFileCommentRule	  3.2 File comment processing
+			File comment is positioned at the top most of file and, format is as shown in the
+			template below.
+			@code{.c}
+				/*
+				************************************************************************************
+				* @file SfArch.h
+				* @brief Security framework [SF] CPU architecture related config
+				* @author Maksym Koshel (m.koshel@samsung.com)
+				* @date Created Mar 14, 2014 17:07
+				* @see VD Coding standard guideline [VDSW-IMC-GDL02] 5.4 release 2013-08-12 
+				* @par In Samsung Ukraine R&D Center (SURC) under a contract between
+				* @par LLC "Samsung Electronics Ukraine Company" (Kiev, Ukraine)
+				* @par and "Samsung Electronics Co", Ltd (Seoul, Republic of Korea)
+				* @par Copyright: (c) Samsung Electronics Co, Ltd 2014. All rights reserved.
+				************************************************************************************
+				*/
+			@endcode
+
+		@subsection PfTypeCommentRule	  3.3 Type comment processing
+			User defined type comment is positioned above the type of text defining
+			struct/union/enum.
+			@code{.c}
+				/*
+				************************************************************************************
+				* @struct SfPacket
+				* @brief Communication protocol message definition
+				************************************************************************************
+				*/
+				typedef struct
+				{
+					SfHeader header; //< Packet header
+					Udword data; //< Packet data
+				} SfPacket;
+			@endcode
+
+		@subsection PfAttrCommentRule	  3.4 Attribute comment processing
+			Attribute comment describes about the next comment for attribute declaration inside user
+			defined type. Describe the usage through comment after declaration of global variable.
+			@code{.c}
+				typedef struct
+				{
+					PfHeader header; //< Packet header
+					Udword data; //< Packet data
+				} SfPacket;
+			@endcode
+		@subsection PfFuncCommentRule	  3.5 Function comment processing
+			Function comment is described in the following format above Function declaration or
+			definition. When Function is to be declared in Header file and defined in source file,
+			Doxygen comment is defined only in Header file as a rule.
+			Function comment block should be writteb by the below template:
+			@code{.c}
+				/*
+				************************************************************************************
+				* @brief Describes key feature and used algorithm of [Mandatory] function in
+				*	complete sentence.
+				* @param [Optional] name explanation ([one among in, out, inout] parameter
+				*	type)
+				* @return [Optional] explanation
+				* @warning Limitations or Precautions of [Optional] function.
+				* @pre [Optional] Pre condition
+				* @post [Optional] Post condition
+				* @remark Write when detail explanation is required apart from [Optional].
+				* @see [Optional] related information link
+				************************************************************************************
+				*/
+			@endcode
+			Example:
+			@code{.c}
+				/*
+				************************************************************************************
+				* @brief Entry point of the libcore test set implementation
+				* @param argc Number of input arguments
+				* @param argv pointer to the array of arguments
+				* @return Error code
+				************************************************************************************
+				*/
+			@endcode
+
+		@subsection PfElineCommentRule	  3.6 End-line comment processing
+			End-line comment is described in one line after the Target.
+			Template:
+			@code{.c}
+				statement;  /* end-line comment */
+				statement;  // end-line comment
+			@endcode
+			Example:
+			@code{.c}
+				void main(void) 
+				{
+					int aa, bb, cc; // int variable aa, bb, cc declaration
+					float ff; // float(error) form variable ff declaration
+				  printf(“graduation ? "); // print to monitor
+				}
+			@endcode
+			When comment is lengthy and cannot be expressed in one line, then, in next line it is
+			started from the same position.\n
+			When a line of S/W source code is lengthy, Comment is written in the next line and, in
+			position of S/W source code applied with indentation, one more tab is entered for
+			writing a comment.
+			@code{.c}
+				int i;
+   				double max;
+   				if (size < 1) // when size of sequence (array) is 0 or negative
+   				{
+        			return ERROR_NO_ELEMENT; // already defined value is returned and
+                                             // this is one example of comment processing. 
+                }
+
+   				max = array[0];
+
+   				for (i = 1; i < size; ++i)
+   				{
+	        		if (max < array[i])	// when value has more bigger element
+	        		{
+	             		max = array[i];	// that value is allocated to max.
+	         		}
+   				}
+   				return max;	/* max calculated value is returned. */
+			@endcode
+		@subsection PfMacroCommentRule	  3.7 Macro comment processing
+			Rules of Indentation and comment etc such as in ‘if’ text is also typed in cases of
+			processing Block such as ifdef-else-endif etc. Conditions applied in ifdef or if
+			defined() must be described in Comment format in line such as endif.\n
+			Example:
+			@code{.c}
+				#ifdef sun 
+				#define USE_MOTIF 
+				#define RPC_ONC 
+
+				#elif hpux 
+				#define USE_OPENLOOK 
+				#define RPC_OSF 
+
+				#else 
+				#define USE_UNKNOWN 
+
+				#endif  // ifdef sun 
+			@endcode
+
+		@subsection PfClassCommentRule	  3.8 Class comment processing
+			class comment is positioned before class declaration or definition and describes the
+			purpose and role of class in accordance with the template below. When class is to
+			declared in Header file and defined in Source file, Doxygen comment is described only
+			header file as a rule.
+			@code{.cpp}
+				/*
+				************************************************************************************
+				* @class [Mandatory] Class name
+				* @brief [Mandatory] Describes about this class.
+				* @remark [Optional] Details
+				* @see [Optional] related information
+				* @copyright Maksym Koshel (c) 2014. All rights reserved.
+				************************************************************************************
+				*/
+				class Object
+				{
+
+				};
+			@endcode
+			Describe the Comment of Class Data member above the Data member declaration.\n
+			Example:
+			@code{.cpp}
+				class Object
+				{
+				public :
+					// objectID is the unique identifier.
+					int objectID; 
+				};
+
+				struct  Student
+				{
+					string studentName; //< studentName stores the given name of the student.
+				};
+			@endcode
+			Class member function comment is described above member function declaration or
+			definition. When class is to be declared in the seader file and defined in source file,
+			Doxygen comment is described only in the Header file as a rule.\n
+			Template:
+			@code{.cpp}
+				/*
+				************************************************************************************
+				* @brief [Mandatory] Describes key features and used algorithm of Member function in
+				*	complete sentence..
+				* @param [in]/[out]	[Optional] Type, scope of name explanation ([in/out/inout])
+				*	parameter.
+				* @return [Optional] explanation
+				* @warning [Optional] Limitation or precaution of Function.
+				* @exception [Mandatory] When throwing Exception, explanation for the same.
+				* @pre [Optional] Pre condition
+				* @post [Optional] Post condition
+				* @remark [Optional] Describe when detail explanation is required
+				* @see [Optional] related information (related function, related module, link)
+				************************************************************************************
+				*/
+			@endcode
+			Example:
+			@code{.cpp}
+				/*
+				************************************************************************************
+				* @class Sort
+				* @brief Performs different types of sort
+				* @remark Currently implemented only insertion sort
+				************************************************************************************
+				*/
+				class Sort
+				{
+				    public:
+				    /*
+				    ********************************************************************************
+				    * @brief This function sorts the numbers between two elements of an array
+				    * @param [in,out] aData Sorts array elements iFirstElmt..iLastElmt 
+				    * @param	in iFirstElmt Index of first element to sort,
+				    *	0 <= iFirstElmt < iLastElmt
+				    * @param	in iLastElmt Index of last element to sort,
+				    *	iFirstElmt < iLastElmt< aData.length
+				    * @pre	Each aData member should have comparable value
+				    * @post aData is sorted
+				    * @remark blah blah
+				    * @return void
+				    * @exception N/A
+				    ********************************************************************************
+				    */
+				    void insertionSort(SortArray aData, int iFirstElmt, int iLastElmt);
+				};
+			@endcode
+		@subsection PfNsCommentRule	  	  3.9 Name space comment processing
+			Overall circumstances of Namespace should be described and, comment related to the same
+			namespace should not be repeated and shown in multiple files.\n
+			Template:
+			@code{.cpp}
+				/*
+				************************************************************************************
+				* @namespace [Mandatory] Namespace name
+				* @brief [Mandatory] Brief explanation about Namespace
+				* [Mandatory] details
+				************************************************************************************
+				*/
+			@endcode
+			Example:
+			@code{.cpp}
+				/*
+				************************************************************************************
+				* @namespace Ocean::Base
+				* @brief This namespace contains fundamental classes and interfaces
+				*	Ocean framework. This namespace contains fundamental classes and interfaces that
+				*	form the basis of the Ocean framework
+				************************************************************************************
+				*/
+				namespace Ocean 
+				{ 
+				    namespace 
+				    { 
+				        Base
+				        {
+				        }; 
+				};
+			@endcode
+
+	@section PfCodeImplementationRules 4. Code implementation rules
+		@subsection PfIndentRule	  	  4.1 Indentation rule
+			It is a rule that All Indentation should use 4 spaces. However, When indentation rule of
+			existing code uses tab, existing rule is followed and, here, tab interval is done with
+			4 spaces.\n
+			Good example:
+			@code{.c}
+				/*
+				************************************************************************************
+				*
+				************************************************************************************
+				*/
+				int main(int argn, char *argv[])
+				{
+				    int z ;
+				    z = MyFunction(2,3);
+				}
+			@endcode
+			Bad example:
+			@code{.c}
+				/*
+				************************************************************************************
+				*
+				************************************************************************************
+				*/
+				int main(int argn, char *argv[])
+				{
+				int z;
+				z = MyFunction(2,3);
+				}
+			@endcode
+
+		@subsection PfSpaceRule		  	  4.2 Spacing rule
+			When compound statement is overlapped, the including content placed one step toward
+			right than the position of indentation compound sentence. Do the indentation of compound
+			statement of ‘{‘ sign and ‘}’ at the same position and, cannot place other syntax other
+			than comment in the same line.\n
+			Good example:
+			@code{.c}
+				switch(j)
+				{
+					case 1:
+				    	printf("POINT-1");
+				    	break;
+					case 2:
+				    	printf("Skip");
+				    	break;
+				    default:
+				    	printf("Default");
+				}
+			@endcode
+			Bad example:
+			@code{.c}
+				switch(j) {
+    				case 1:
+           				printf("POINT-1");
+           				break;
+       				case 2:
+           				printf("Skip");
+           				break;
+        			default:
+           				printf("Default");
+				}
+			@endcode
+			Give one space between keyword and ‘(‘. In case of a Binary operator, one space each at
+			both side of operator is shown. (Caution: ->, ., [] Operator does not show empty space.
+			@code{.c}
+				if (((a + b) / (c + d)) == 0)
+				while (a > 0)
+				{
+					return ERROR_NO_ELEMENT;
+				}
+			@endcode
+			In case of Unary operator, attach the Operator and the Operand (that is, no space
+			between operand and the operator). When a new line is not started after ‘,’, then, give
+			a space in the next paragraph. \n
+			Good example:
+			@code{.c}
+				/*
+				************************************************************************************
+				*
+				************************************************************************************
+				*/
+				void PrintFunction(void) 
+				{ 
+					static char temp1 = 0;
+				    char temp2 = 0;
+					temp1++;
+					temp2++;
+				    if (((temp1 + temp2) / tem2) == 0)
+				    {
+				    	//TODO: implement
+				    }
+				}
+			@endcode
+			Bad example:
+			@code{.c}
+				/*
+				************************************************************************************
+				*
+				************************************************************************************
+				*/
+				void printfunction(void)
+				{
+					static char temp1 = 0;
+					char temp2 = 0;
+					temp1 ++;
+					temp2 ++;
+					if (((temp1+temp2)/tem2) == 0)
+				   	{
+				   		//TODO: implement
+				   	}
+				}
+			@endcode
+
+		@subsection PfCondIterRule	  	  4.3 Condition/Iteration implementation rule
+			Else part in if-else statement is positioned in a new line. In case of if-else if-else
+			statement, else if part is typed in an independent line. Even if Condition/iteration
+			statement (if, while, for) is single line, ‘{‘ and ‘}’ is used.\n
+			Good example:
+			@code{.c}
+				/*
+				************************************************************************************
+				*
+				************************************************************************************
+				*/
+				void Machine(void) 
+				{
+					if (STREQ(reply, “yes”))
+					{
+				        printf( “output  as yes”);
+				    }
+				    else if (STREQ(reply, “no”))
+				    {
+				        printf( “output as no”);
+				    }
+				 
+				}
+			@endcode
+			Bad example:
+			@code{.c}
+				/*
+				************************************************************************************
+				*
+				************************************************************************************
+				*/
+				void machine(void)
+				{
+					if (STREQ(reply, “yes”)) {
+						printf( “output  as yes”);
+				    } else if (STREQ(reply, “no”))
+				    	printf( “output  as no”);
+				}
+			@endcode
+			Decision statement in a Condition/Iteration statement is simplified by using boolean
+			expressions.\n
+			Good example:
+			@code{.c}
+				if (timerId >=0)
+				{
+					gSendOtarWaitTimerId = timerId;
+					AC_PRINT(PRT_MSG, 0, "Set Success)\n“);
+				}
+				else
+				{
+				   AC_PRINT(PRT_MSG, 0, "Set Error)\n“);
+				}
+
+				i = initialI; 
+				while (i <= iMax) 
+				{ 
+				    // TODO: implement
+				}
+			@endcode
+			Bad example:
+			@code{.c}
+				for (i = 0; i < (d = (a +b + c)); i++) 
+					x[i] = 0.5*(float)i; /* print x */
+				while (EOF != (c++ = getchar()))
+				{
+				    // TODO: process the character
+				}
+			@endcode
+			A case in a switch statement is indented more than switch and, is positioned in an
+			independent line. NULL statement (‘;’) should be positioned in an independent line and
+			comment "// NULL" should be attached when there is no ‘body’ in the for/while
+			statement.\n
+			Good example:
+			@code{.c}
+				/*
+				************************************************************************************
+				*
+				************************************************************************************
+				*/
+				void main (void) 
+				{
+				    switch(month) 
+				    {
+				    	case 1:
+				    	day=31;
+				    	break;
+				    }
+				    while (--day > 0) 
+				    {
+				        ; // NULL
+				    }
+				}
+			@endcode
+			Bad example:
+			@code{.c}
+				/*
+				************************************************************************************
+				*
+				************************************************************************************
+				*/
+				void main (void) 
+				{
+					switch(month) {
+					case 1:
+					day=31;
+					break;
+				    }
+				    while (--day > 0)
+				    {
+				        ;
+				    }
+				}
+			@endcode
+			break/return text is used in all cases in Switch statement except \c default: (comment
+			should be added when break/return text is not used deliberately).\n
+			Good example:
+			@code{.c}
+				switch(j)
+				{
+					case 1:
+					case 2:
+						printf("POINT-1&2");
+						break;
+					case 3:
+						printf("Skip");
+				    	/* fall through */
+				    case 4:
+				    	printf("POINT-4");
+				    	break;
+				    default:
+				    	printf("Default");
+				}
+			@endcode
+			Bad example:
+			@code{.c}
+				switch(j)
+				{
+					case 1:
+					case 2:
+						printf("POINT-1&2");
+						break;
+					case 3:
+				    	printf("Skip");
+				    case 4:
+				        printf("POINT-4");
+				        break;
+				    default:
+				        printf("Default");
+				}
+			@endcode
+			{ } \b MUST be used always for Do-while statement.\n
+			Good example:
+			@code{.c}
+				do
+				{
+					a++;
+					printf("%d\n",a);
+			    }
+			    while(a < 5);
+			@endcode
+			Bad example:
+			@code{.c}
+				do
+		        	a++;
+		        	printf("%d\n",a);
+		    	while(a < 5);
+			@endcode
+
+		@subsection PfFuncImplRule	  	  4.4 Function implementation rule
+			Return type of function should always be specified. function without return value is
+			listed as \c void. Left parenthesis is always used attached with the function name.\n
+			Good example:
+			@code{.c}
+				/*
+				************************************************************************************
+				*
+				************************************************************************************
+				*/
+				void Factorial(int number) 
+				{
+				    int intermediateResult = 1; 
+				    for(int factor = 2; factor <= number; factor++)
+				    {
+				        intermediateResult = ntermediateResult * factor;
+				    }
+				}
+			@endcode
+			Bad example:
+			@code{.c}
+				/*
+				************************************************************************************
+				*
+				************************************************************************************
+				*/
+				Factorial (int number)
+				{
+					int intermediateResult = 1; 
+					for(int factor = 2; factor <= number; factor++)
+				    {
+				        intermediateResult = ntermediateResult * factor;
+				    }
+				}
+			@endcode
+			Declare the function parameter not only type but also name together. Void is specified
+			when there is no Input parameter. However, Creator and Destructor of C++ are
+			exception.\n
+			Good example:
+			@code{.c}
+				void printSectionA(int x, int y);
+
+				/*
+				************************************************************************************
+				*
+				************************************************************************************
+				*/
+				void printSectionB(void)
+				{
+					int i, j;
+					printf("Enter Alp : ");
+				}
+			@endcode
+			Bad example:
+			@code{.c}
+				void printSectionA(int, int);
+
+				/*
+				************************************************************************************
+				*
+				************************************************************************************
+				*/
+				void printSectionB()
+				{
+					int i, j;
+					printf("Enter Alp : ");
+				}
+			@endcode
+
+		@subsection PfVarImplRule	  	  4.5 Variable implementation rule
+			Only one variable is declared in one line while declaring Global variable. Many
+			variables can be declared depending on the requirement while declaring Local variable or
+			auto variable but, this is limited to the related variables. Only one variable is
+			declared in one line while declaring many Pointer variables.\n
+			Good example:
+			@code{.c}
+				const  int  MAX_POOL_LEN = 128;
+				static int var = 1;
+				extern int caWords[ATOZ];
+
+				/*
+				************************************************************************************
+				*
+				************************************************************************************
+				*/
+				void func(void)
+				{
+					int array[MAX_POOL_LEN];
+				}
+			@endcode
+			Bad example:
+			@code{.c}
+				static int var = 1; extern int caWords[ATOZ];
+
+				/*
+				************************************************************************************
+				*
+				************************************************************************************
+				*/
+				void func(void)
+				{
+					int array[];
+				}
+			@endcode
+			Enter the Extern keyword when External declaration has to be done. Size of the sequence
+			must be specified while declaring the sequence. All declared variables must be used.\n
+			Good example:
+			@code{.c}
+				/*
+				************************************************************************************
+				*
+				************************************************************************************
+				*/
+				void main(void) 
+				{
+					char* pChar = 0;
+					int* pInt = 0;
+					printf("%u , %u \n", pChar, pInt );
+					pChar++;
+					pInt++;
+					printf("%u , %u \n", pChar, pInt );
+				}
+			@endcode
+			Bad example:
+			@code{.c}
+				/*
+				************************************************************************************
+				*
+				************************************************************************************
+				*/
+				void main(void)
+				{
+					char  *pChar = 0, int  *pInt = 0;
+					int unused;
+					printf("%u , %u \n", pChar, pInt );
+					pChar++;
+					pInt++;
+					printf("%u , %u \n", pChar, pInt );
+				}
+			@endcode
+
+		@subsection PfMacroImplRule	  	  4.6 Macro implementation rule
+			Put all the "#"" signs of Macro which defines \c define in the first space. All
+			expressions or parameter of expressions which configure Macro are put together by
+			using (). While using a defined Macro, it must be used in a statement form.
+			That is, ";"" is placed at the end of the Macro.\n
+			Good example:
+			@code{.c}
+				#define PRODUCT(a, b) ((a)*(b))
+				#define MULTI_3(x)  ((x) * (x)) //OK
+				#define BORK() (zork())
+				#define NODE() (nork())
+
+				if (isRootNode)
+					ROOT();
+				else
+					NODE();
+			@endcode
+			Bad example:
+			@code{.c}
+				#define product(a, b) (a)*(b)
+				#define MULTI_3(x)  (x * (x)) //Violation
+				#define ROOT() (zork())
+				#define NODE() (nork())
+
+				if (isRootNode) 
+				    ROOT()
+				else
+				    NODE()
+			@endcode
+			An execution statement which configures a Macro is put together by using  ‘do {}
+			while (0)’.\n
+			Good example:
+			@code{.c}
+				#define PRODUCT(a, b) ((a)*(b))
+				#define MULTI_3(x)  (x * (x)) //Violation
+				#define SP3() \
+				    do\
+				    {\
+				        if (b) { int x; av = f(&x); bv += x; }
+				    }\
+				    while (0)
+				#define BORK() (zork())
+				if (x == 3)
+				SP3();
+				else
+				BORK();
+			@endcode
+			Bad example:
+			@code{.c}
+				#define product(a, b) (a)*(b)
+				#define MULTI_3(x)  ((x) * (x)) //OK
+				#define SP3() \
+				    if (b) { int x; av = f(&x); bv += x; }
+				#define BORK() (zork())
+				if (x == 3)
+				SP3();
+				else
+				BORK();
+			@endcode
+
+	@section PfExceptionHandlingRules 5. Exception handling rule
+		@subsection PfCondExceptRule	  5.1 Handling Condition/Iteration statement exceptions
+			Else should always be there in if-else statement. Else should be there in
+			if-else if-else statement as well. Null statement(';') should be positioned in
+			independent line and comment // NULL should be put when there is no ‘body’ in an
+			if-else statement.\n
+			Good example:
+			@code{.c}
+				/*
+				************************************************************************************
+				*
+				************************************************************************************
+				*/
+				void Machine(void) 
+				{
+					if (STREQ(reply, “yes”))
+					{
+						printf( “Print yes”);
+					}
+					else
+					{
+						; // NULL
+				    }
+				}
+			@endcode
+			Bad example:
+			@code{.c}
+				/*
+				************************************************************************************
+				*
+				************************************************************************************
+				*/
+				void machine(void) 
+				{
+					if (STREQ(reply, “yes”))
+					{
+						printf( “Print yes”);
+					}
+				}
+			@endcode
+			Default statement must be there in a Switch statement.\n
+			Good example:
+			@code{.c}
+				switch(j)
+				{
+					case 1:
+					case 2:
+						printf("POINT-1&2");
+						break;
+					default:
+						printf("Default");
+				}
+			@endcode
+	@section PfAppendix 6. Source code quality improvement
+		
+*/

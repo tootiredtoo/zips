@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "გონიერი უსაფრთხოება"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "მონიტორინგის შედეგები"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "დაიბლოკა საზიანო ფაილი. [ფაილი: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "დაბლოკილია საზიანო ქსელი. [ქსელი: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "დაბლოკილია საზიანო პროცესი. [პროცესი: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "სიის ჩვენება"
+
+msgid "COM_SID_OK"
+msgstr "კარგი"
+
+msgid "COM_SID_YES"
+msgstr "დიახ"
+
+msgid "COM_SID_NO"
+msgstr "არა"
+
+msgid "COM_SID_CLOSE"
+msgstr "დახურვა"
+
+msgid "COM_SID_CANCEL"
+msgstr "გაუქმება"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "გსურთ საზიანო პროგრამების შესახებ ამ ფაილის სერვერზე გაგზავნა, რათა Samsung Smart TV-ების გაუმჯობესებაში დაგვეხმაროთ?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "შეცდომა"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "მოხდა ქსელის შეცდომა. სცადეთ მოგვიანებით."
+
+msgid "COM_SID_ALWAYS"
+msgstr "ყოველთვის"
+
+msgid "COM_SID_ONCE"
+msgstr "ერთხელ"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "გსურთ საზიანო პროგრამების შესახებ ამ ფაილის სერვერზე გაგზავნა, რათა Samsung The Wall-ების გაუმჯობესებაში დაგვეხმაროთ?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "დაბლოკილია: <<A>> ელემენტი"

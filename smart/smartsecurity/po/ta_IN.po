@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "ஸ்மார்ட் பாதுகாப்பு"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "கண்காணிப்பு முடிவுகள்"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "தீங்கிழைக்கும் கோப்பு தடைசெய்யப்பட்டது. [கோப்பு: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "தீங்கிழைக்கும் நெட்வொர்க் தடைசெய்யப்பட்டது. [நெட்வொர்க்: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "தீங்கிழைக்கும் செயல்முறை தடைசெய்யப்பட்டது. [செயல்முறை: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "பட்டியலை காட்டு"
+
+msgid "COM_SID_OK"
+msgstr "ஆம்"
+
+msgid "COM_SID_YES"
+msgstr "ஆம்"
+
+msgid "COM_SID_NO"
+msgstr "இல்லை"
+
+msgid "COM_SID_CLOSE"
+msgstr "மூடு"
+
+msgid "COM_SID_CANCEL"
+msgstr "ரத்து"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Samsung Smart TVகளை மேம்படுத்த எங்களுக்கு உதவ, இந்த தீங்கிழைக்கும் கோப்பை சர்வருக்கு அனுப்ப வேண்டுமா?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "பிழை"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "நெட்வொர்க் பிழை ஏற்பட்டது. பின்னர் மீண்டும் முயலவும்."
+
+msgid "COM_SID_ALWAYS"
+msgstr "எப்போதும்"
+
+msgid "COM_SID_ONCE"
+msgstr "ஒருமுறை"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Samsung The Wall-ஐ மேம்படுத்த எங்களுக்கு உதவ, இந்தத் தீங்கிழைக்கும் கோப்பை சர்வருக்கு அனுப்ப வேண்டுமா?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "தடுக்கப்பட்டது: <<A>> உருப்படிகள்"

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="3.0" smack-label="dtv-org.tizen.smart_security" package="@PACKAGE_NAME@" version="@VERSION@" install-location="internal-only">
+	<label>smart_security</label>
+	<author email="m.koshel@samsung.com" href="www.samsung.com">Maksym Koshel</author>
+	<author email="d.dorogovtse@samsung.com" href="www.samsung.com">Dmitriy Dorogovtsev</author>
+	<author email="a.skakun@samsung.com" href="www.samsung.com">Anton Skakun</author>
+	<author email="jianou.zhang@samsung.com" href="www.samsung.com">Jianou Zhang</author>
+	<author email="namgwon.lee@samsung.com" href="www.samsung.com">Namgwon Lee</author>
+	<author email="se.leonov@samsung.com" href="www.samsung.com">Sergey Leonov</author>
+	<description>Security Framework with a set of application based on kernel filter control execution of the TV applications</description>
+	<ui-application appid="@PACKAGE_NAME@" exec="@TZ_SYS_RO_APP@/org.tizen.smart_security/bin/smart_security" nodisplay="false" multiple="false" type="capp" taskmanage="false">
+	<label>smart_security</label>
+	</ui-application>
+	<privileges>
+		<privilege>http://tizen.org/privilege/notification</privilege>
+		<privilege>http://tizen.org/privilege/appmanager.launch</privilege>
+		<privilege>http://tizen.org/privilege/recorder</privilege>
+		<privilege>http://tizen.org/privilege/inputgenerator</privilege>
+		<privilege>http://tizen.org/privilege/window.priority.set</privilege>
+	</privileges>
+</manifest>

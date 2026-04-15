@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "स्मार्ट सुरक्षा"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "मोनीटरींग परिणामो"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "दुर्भावनापूर्ण फाइल ब्लोक करवामां आव्युं छे. [फाइल: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "दुर्भावनापूर्ण नेटवर्क ब्लोक करवामां आव्युं छे. [नेटवर्क: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "दुर्भावनापूर्ण प्रोसेस ब्लोक करवामां आव्युं छे. [प्रोसेस: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "सूचि दर्शावो"
+
+msgid "COM_SID_OK"
+msgstr "ठीक छे"
+
+msgid "COM_SID_YES"
+msgstr "हा"
+
+msgid "COM_SID_NO"
+msgstr "ना"
+
+msgid "COM_SID_CLOSE"
+msgstr "बंध"
+
+msgid "COM_SID_CANCEL"
+msgstr "रद करो"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Samsung Smart TV सुधारवा मदद करवा शुं तमने छे के तमे आ मॉलवेर फाइल सर्वर ने मोकलवा मांगो छो?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "भूल"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "नेटवर्क क्षति आवी छे. कृपा करीने पछी फरी थी कोशिस करो."
+
+msgid "COM_SID_ALWAYS"
+msgstr "हंमेशा"
+
+msgid "COM_SID_ONCE"
+msgstr "एक वखत"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Samsung The Wall सुधारवा मदद करवा शुं तमने छे के तमे आ मॉलवेर फाइल सर्वर ने मोकलवा मांगो छो?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "ब्लोक करेल: <<A>> आइटमो"

@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Ukhuseleko olunobuqili"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Ijongisisa iziphumo"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "Ifayile engaqondakaliyo ithintelwe. [Ifayile: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "Inethiwekhi enobungozi iye yathintelwa. [Inethiwekhi: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "Inkqubo enobungozi iye yathintelwa. [Inkqubo: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Bonisa uLuhlu"
+
+msgid "COM_SID_OK"
+msgstr "OK"
+
+msgid "COM_SID_YES"
+msgstr "Ewe"
+
+msgid "COM_SID_NO"
+msgstr "Hayi"
+
+msgid "COM_SID_CLOSE"
+msgstr "Vala"
+
+msgid "COM_SID_CANCEL"
+msgstr "Yekisa"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Ufuna ukuthumela lefayile yentsholongwane kwiseva ukunceda thina siphucule iSamsung Smart TV?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Impazamo"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "Impazamo yenethiwekhi yenzekile. Nceda zama kwakhna kamva."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Rhoqo"
+
+msgid "COM_SID_ONCE"
+msgstr "Kanye"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Ingaba ufuna ukuthumela le fayili yemalwe kwiseva ukuze isincede siphucule i-Samsung The Wall?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Ithintelwe: <<A>> iiayithem"

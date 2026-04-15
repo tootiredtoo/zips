@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "ಸ್ಮಾರ್ಟ್ ಸುರಕ್ಷತೆ"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "ಮಾನಿಟರಿಂಗ್ ಫಲಿತಾಂಶಗಳು"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "ದುರುದ್ದೇಶಿತ ಫೈಲ್ ಒಂದನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ. [ಫೈಲ್: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "ದುರುದ್ದೇಶಿತ ನೆಟ್‌ವರ್ಕ್ ಒಂದನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ. [ನೆಟ್‌ವರ್ಕ್: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "ದುರುದ್ದೇಶಿತ ಪ್ರಕ್ರಿಯೆಯೊಂದನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ. [ಪ್ರಕ್ರಿಯೆ: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "ಪಟ್ಟಿ ತೋರಿಸಿ"
+
+msgid "COM_SID_OK"
+msgstr "ಸರಿ"
+
+msgid "COM_SID_YES"
+msgstr "ಹೌದು"
+
+msgid "COM_SID_NO"
+msgstr "ಇಲ್ಲ"
+
+msgid "COM_SID_CLOSE"
+msgstr "ಮುಚ್ಚಿರಿ"
+
+msgid "COM_SID_CANCEL"
+msgstr "ರದ್ದು"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Samsung Smart TV ಗಳನ್ನು ಸುಧಾರಿಸುವಲ್ಲಿ ನಮಗೆ ಸಹಾಯವಾಗಲು ಈ ಮಾಲ್‌ವೇರ್ ಫೈಲ್ ಅನ್ನು ಸರ್ವರ್‌ಗೆ ನೀವು ಕಳುಹಿಸಬೇಕೆಂದಿದ್ದೀರಾ?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "ದೋಷ"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "ನೆಟ್‌ವರ್ಕ್ ದೋಷ ಸಂಭವಿಸಿದೆ. ದಯವಿಟ್ಟು ನಂತರ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ."
+
+msgid "COM_SID_ALWAYS"
+msgstr "ಯಾವಾಗಲೂ"
+
+msgid "COM_SID_ONCE"
+msgstr "ಒಮ್ಮೆ"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Samsung The Wall ಸುಧಾರಿಸುವಲ್ಲಿ ನಮಗೆ ಸಹಾಯವಾಗಲು ಈ ಮಾಲ್‌ವೇರ್ ಫೈಲ್ ಅನ್ನು ಸರ್ವರ್‌ಗೆ ನೀವು ಕಳುಹಿಸಬೇಕೆಂದಿದ್ದೀರಾ?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "ನಿರ್ಬಂಧಿಸಿದೆ: <<A>> ಐಟಂಗಳು"

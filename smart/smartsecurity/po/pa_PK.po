@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "ਸਮਾਰਟ ਸੁਰੱਖਿਆ"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "ਨਿਗਰਾਨੀ ਦੇ ਨਤੀਜੇ"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "ਇੱਕ ਦੂਸ਼ਿਤ ਫਾਈਲ ਬਲੌਕ ਕਰ ਦਿੱਤੀ ਗਈ ਹੈ। [ਫਾਈਲ: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "ਇੱਕ ਦੂਸ਼ਿਤ ਨੈਟਵਰਕ ਬਲੌਕ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ। [ਨੈਟਵਰਕ: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "ਇੱਕ ਦੂਸ਼ਿਤ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਬਲੌਕ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ। [ਪ੍ਰਕਿਰਿਆ: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "ਸੂਚੀ ਦਿਖਾਓ"
+
+msgid "COM_SID_OK"
+msgstr "ਠੀਕ ਹੈ"
+
+msgid "COM_SID_YES"
+msgstr "ਹਾਂ"
+
+msgid "COM_SID_NO"
+msgstr "ਨਹੀਂ"
+
+msgid "COM_SID_CLOSE"
+msgstr "ਬੰਦ ਕਰੋ"
+
+msgid "COM_SID_CANCEL"
+msgstr "ਰੱਦ ਕਰੋ"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "ਕੀ ਤੁਸੀਂ Samsung Smart TV ਨੂੰ ਸੁਧਾਰਨ ਵਿੱਚ ਸਾਡੀ ਮਦਦ ਕਰਨ ਲਈ ਇਸ ਮਾਲਵੇਅਰ ਫਾਈਲ ਨੂੰ ਸਰਵਰ ਤੇ ਭੇਜਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "ਤਰੁੱਟੀ"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "ਕੋਈ ਨੈਟਵਰਕ ਤਰੁੱਟੀ ਆਈ। ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਮੁਡ਼ ਜਤਨ ਕਰੋ।"
+
+msgid "COM_SID_ALWAYS"
+msgstr "ਹਮੇਸ਼ਾ"
+
+msgid "COM_SID_ONCE"
+msgstr "ਇੱਕ ਵਾਰ"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "ਕੀ ਤੁਸੀਂ Samsung The Wall ਨੂੰ ਸੁਧਾਰਨ ਵਿੱਚ ਸਾਡੀ ਮਦਦ ਕਰਨ ਲਈ ਇਸ ਮਾਲਵੇਅਰ ਫਾਈਲ ਨੂੰ ਸਰਵਰ ਤੇ ਭੇਜਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "ਬਲੌਕ ਕੀਤੀਆਂ ਗਈਆਂ: <<A>> ਆਈਟਮਾਂ"

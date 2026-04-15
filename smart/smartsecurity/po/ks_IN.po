@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "स्मार्ट सिक्यूरिटी"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "मानीटरिंग नतीजः"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "अख मेलिशेहस फाइल आव ब्लाक करनः. [फाइल: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "अख मेलिशेहस नेटवर्क आव ब्लाक करनः. [नेटवर्क: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "अख मेलिशेहस प्रोसेस आय ब्लाक करनः. [प्रोसेस: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "हायिव"
+
+msgid "COM_SID_OK"
+msgstr "ओके"
+
+msgid "COM_SID_YES"
+msgstr "आव"
+
+msgid "COM_SID_NO"
+msgstr "नो"
+
+msgid "COM_SID_CLOSE"
+msgstr "बंद"
+
+msgid "COM_SID_CANCEL"
+msgstr "मंसोख्त"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Samsung Smart TV बहतर बनावनः बापथ असि मदद करनः खातरि छिवः तुह्य यि मालवेयर फाइल सरवरस सोज़िन यस़ान?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "एरर"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "अख नेटवर्क एरर गयि ज़ाहिर. महरबानी करिथ करिव पतः पहन कोशिश."
+
+msgid "COM_SID_ALWAYS"
+msgstr "हमेश"
+
+msgid "COM_SID_ONCE"
+msgstr "अकि"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Samsung The Wall बहतर बनावनः बापथ असि मदद करनः खातरि छिवः तुह्य यि मालवेयर फाइल सरवरस सोज़िन यस़ान?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "ब्लॉक्ड: <<A>> आइटम"

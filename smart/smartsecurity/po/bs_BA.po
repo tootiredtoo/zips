@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Pametna sigurnost"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Nadzor rezultata"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "Zlonamjerni fajl je blokiran. [Fajl: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "Zlonamjerna mreža je pronađena i blokirana. [Mreža: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "Zlonamjeran proces je pronađen i blokiran. [Proces: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Prikaži spisak"
+
+msgid "COM_SID_OK"
+msgstr "U redu"
+
+msgid "COM_SID_YES"
+msgstr "Da"
+
+msgid "COM_SID_NO"
+msgstr "Ne"
+
+msgid "COM_SID_CLOSE"
+msgstr "Zatvori"
+
+msgid "COM_SID_CANCEL"
+msgstr "Otkaži"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Želite li poslati ovaj fajl zlonamjernog softvera na server da bismo poboljšali Samsung Smart TV uređaje?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Pogreška"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "Došlo je greške na mreži. Pokušajte ponovno kasnije."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Uvijek"
+
+msgid "COM_SID_ONCE"
+msgstr "Jednom"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Želite li poslati ovaj fajl zlonamjernog softvera na server da bismo poboljšali uređaj Samsung The Wall?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Blokirano: <<A>> stavke"

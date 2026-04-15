@@ -1,0 +1,81 @@
+         systemd:    51.815 D/SYSTEMD (P    1, T    1): job.c: job_is_runnable(517) > multi-user.target: Not runnable by sfpmd.service (After)
+         systemd:    51.818 D/SYSTEMD (P    1, T    1): service.c: service_spawn(1481) > sfpmd.service: Passing 0 fds to service
+         systemd:    51.818 D/SYSTEMD (P    1, T    1): execute.c: exec_spawn(4057) > sfpmd.service: About to execute: /usr/bin/sfpmd
+         systemd:    51.820 D/SYSTEMD (P    1, T    1): execute.c: exec_spawn(4113) > sfpmd.service: Forked /usr/bin/sfpmd as 3003
+         systemd:    51.821 D/SYSTEMD (P    1, T    1): service.c: service_set_state(1129) > sfpmd.service: Changed dead -> running
+         systemd:    51.821 D/SYSTEMD (P    1, T    1): job.c: job_finish_and_invalidate(1021) > sfpmd.service: start Job 2394 done
+         systemd:    51.821 I/SYSTEMD (P    1, T    1): unit.c: unit_status_printf(1653) > Started sfpmd.service(3003).
+         systemd:    51.821 D/VTRACE  (P    1, T    1): systemd: Started sfpmd.service.
+    boot-netlink:    51.824 I/BOOST   (P  571, T  589): TaskInfoManager.cpp: updateProcComm(321) > update comm [systemd] to [sfpmd] pid:3003
+         systemd:    51.845 D/SYSTEMD (P    1, T    1): execute.c: exec_child(3949) > sfpmd.service: Executing: /usr/bin/sfpmd
+           sfpmd:    52.238 I/smartsecurity(P 3003, T 3003): main.cpp: main(322) > [36msfpmd: started;[0m
+           sfpmd:    52.238 E/smartsecurity(P 3003, T 3003): SfDebug.cpp: console_event_queue_push(140) > [31msfpmd: console_log_event_queue is not ready[0m
+           sfpmd:    52.240 I/smartsecurity(P 3003, T 3003): SfDebug.cpp: create_console_log_event_loop(121) > [36msfpmd: Create console_log_write_thread thread successfully.[0m
+           sfpmd:    52.240 D/USB_DEVICE(P 3003, T 3003): common.c: set_cpu_inheritance(101) > set_cpu_inheritance start...
+           sfpmd:    52.240 D/USB_DEVICE(P 3003, T 3003): common.c: set_cpu_inheritance(109) > set_cpu_inheritance done...
+       sfpmd_log:    52.252 I/smartsecurity(P 3003, T 3037): SfDebug.cpp: print_log_console(74) > [36msfpmd: [52.251652] completed[0m
+           sfpmd:    52.446 D/USB_DEVICE(P 3003, T 3003): usb-device.c: create_device_sd_cb_connection(602) > callback added first time(thread id:3003)
+           sfpmd:    52.576 I/USB_DEVICE(P 3003, T 3003): usb-dev.c: usb_host_subscribe_signal(104) > registering remove signal cb: 0xf7b55cb5
+           sfpmd:    52.576 I/USB_DEVICE(P 3003, T 3003): usb-dev.c: usb_host_subscribe_signal(104) > registering add signal cb: 0xf7b55cb5
+           sfpmd:    52.576 I/USB_DEVICE(P 3003, T 3003): usb-device.c: usb_set_connected_cb(639) > callback added(thread id:3003), callback=0x5785f5
+           sfpmd:    52.576 D/USB_DEVICE(P 3003, T 3003): common.c: clear_cpu_inheritance(114) > clear_cpu_inheritance start
+           sfpmd:    52.576 D/USB_DEVICE(P 3003, T 3003): common.c: clear_cpu_inheritance(116) > clear_cpu_inheritance done
+           sfpmd:    52.576 I/DEVICED_LIB(P 3003, T 3003): power.c: device_power_subscribe_poweroff(1126) > start (0x00578599)
+           sfpmd:    52.651 D/VTRACE  (P 3003, T 3003): sfpmd: [Lwipc] LwipcWaitEvent: + /tmp/deviced-ready
+           sfpmd:    52.651 D/VTRACE  (P 3003, T 3003): sfpmd: [Lwipc] LwipcWaitEvent: - ret=0
+         deviced:    52.666 I/DEVICED (P  594, T  594): power-tv.c: handle_subscription(1862) > added cb (PowerOff:3003:sfpmd:578599)
+           sfpmd:    52.684 D/DEVICED_LIB(P 3003, T 3003): power-common.c: subscribe_poweroff(75) > org.tizen.system.deviced.power-SubscribeCallback : 0
+           sfpmd:    52.684 D/DEVICED_LIB(P 3003, T 3003): power.c: device_power_subscribe_signal(1112) > subscribe PowerOff, pid(3003)-(0x00578599)
+           sfpmd:    52.684 I/DEVICED_LIB(P 3003, T 3003): power.c: device_power_subscribe_poweroff(1128) > end (0x00578599)/(0)
+           sfpmd:    52.684 I/DEVICED_LIB(P 3003, T 3003): power.c: device_power_subscribe_wakeup(1464) > start (0x00578535)
+           sfpmd:    52.707 D/DEVICED_LIB(P 3003, T 3003): power.c: device_power_subscribe_wakeup_signal(1433) > Subscribe wakeup handler
+           sfpmd:    52.707 I/DEVICED_LIB(P 3003, T 3003): power.c: device_power_subscribe_wakeup(1466) > end (0x00578535)/(0)
+           sfpmd:    52.707 I/smartsecurity(P 3003, T 3003): main.cpp: sf_wait_before_starting(191) > [36msfpmd: 0 secs;[0m
+           sfpmd:    52.710 I/smartsecurity(P 3003, T 3003): SfKUEPSwitcher.cpp: Execute(49) > [36msfpmd: Called;[0m
+           sfpmd:    52.710 W/smartsecurity(P 3003, T 3003): SfThread.cpp: Join(176) > [33mlibprimitive: (SfKUEPSwitcher): thread was not created;[0m
+           sfpmd:    52.800 I/smartsecurity(P 3003, T 3003): SfTaskMessageReceiver.cpp: launchThreads(243) > [36msfpmd: called;[0m
+           sfpmd:    52.800 I/smartsecurity(P 3003, T 3063): SfKUEPSwitcher.cpp: ThreadFunction(56) > [36msfpmd: ++[0m
+           sfpmd:    53.003 I/smartsecurity(P 3003, T 3063): SfKUEPSwitcher.cpp: SendDUIDToKernel(64) > [36msfpmd: Called;[0m
+           sfpmd:    53.004 W/smartsecurity(P 3003, T 3074): SfTaskMessageReceiver.cpp: receiveUserMessage(834) > [33msfpmd: called;[0m
+           sfpmd:    53.004 I/BXT_LIB (P 3003, T 3063): ShmVconfClient.cpp: OpenShm(96) > succeeded to open (shm_vconf_key_list)
+           sfpmd:    53.004 I/BXT_LIB (P 3003, T 3063): ShmVconfClient.cpp: OpenShm(96) > succeeded to open (shm_vconf_key_str_storage)
+           sfpmd:    53.004 I/BXT_LIB (P 3003, T 3063): ShmVconfClient.cpp: OpenShm(96) > succeeded to open (shm_vconf_str_storage)
+           sfpmd:    53.004 I/BXT_LIB (P 3003, T 3063): ShmVconfClient.cpp: OpenShm(96) > succeeded to open (shm_vconf_dbl_storage)
+           sfpmd:    53.004 I/BXT_LIB (P 3003, T 3063): vconf.c: vconf_get_str(1975) > shm cache(1)-(446)us-(db/comss/hwduid:7XCJZNTLPBXPI)
+           sfpmd:    53.005 I/smartsecurity(P 3003, T 3003): SfRecorder.cpp: Execute(333) > [36msfpmd: Call;[0m
+           sfpmd:    53.005 W/smartsecurity(P 3003, T 3003): SfThread.cpp: Join(176) > [33mlibprimitive: (ReportTaskWorker): thread was not created;[0m
+           sfpmd:    53.006 I/smartsecurity(P 3003, T 3003): SfRecorder.cpp: Execute(333) > [36msfpmd: Call;[0m
+           sfpmd:    53.006 W/smartsecurity(P 3003, T 3003): SfThread.cpp: Join(176) > [33mlibprimitive: (ReportTaskWorker): thread was not created;[0m
+           sfpmd:    53.006 I/smartsecurity(P 3003, T 3003): SfRecorder.cpp: Execute(333) > [36msfpmd: Call;[0m
+           sfpmd:    53.006 W/smartsecurity(P 3003, T 3003): SfThread.cpp: Join(176) > [33mlibprimitive: (ReportTaskWorker): thread was not created;[0m
+           sfpmd:    53.007 I/smartsecurity(P 3003, T 3003): main.cpp: main(369) > [36msfpmd: [set SDL:0];[0m
+           sfpmd:    53.008 I/smartsecurity(P 3003, T 3082): SfFs.cpp: ClearDirectory(664) > [36mlibprimitive: directory : /opt/GAIA/logs/[0m
+           sfpmd:    53.008 E/smartsecurity(P 3003, T 3082): SfFs.cpp: ClearDirectory(673) > [31mlibprimitive: Fail to list up files in directory ;[0m
+           sfpmd:    53.033 I/smartsecurity(P 3003, T 3081): SfFs.cpp: ClearDirectory(664) > [36mlibprimitive: directory : /opt/usr/apps/org.tizen.smart_security/shared/[0m
+           sfpmd:    53.034 I/smartsecurity(P 3003, T 3082): SfFs.cpp: ClearDirectory(677) > [36mlibprimitive: Files count : 0[0m
+           sfpmd:    53.034 I/smartsecurity(P 3003, T 3082): SfFs.cpp: ClearDirectory(690) > [36mlibprimitive: Clear Files count : 0[0m
+           sfpmd:    53.034 I/smartsecurity(P 3003, T 3080): SfFs.cpp: ClearDirectory(664) > [36mlibprimitive: directory : /opt/usr/apps/org.tizen.smart_security/data/report/[0m
+           sfpmd:    53.035 W/smartsecurity(P 3003, T 3079): SfTaskMessageReceiver.cpp: threadInotifyHandler(988) > [33msfpmd: called;[0m
+           sfpmd:    53.036 I/smartsecurity(P 3003, T 3079): SfTaskMessageReceiver.cpp: threadInotifyHandler(1012) > [36msfpmd: === START inotify MONITORING ===[0m
+           sfpmd:    53.036 I/smartsecurity(P 3003, T 3063): SfKUEPSwitcher.cpp: SendDUIDToKernel(94) > [36msfpmd: Send(DUID) success;[0m
+           sfpmd:    53.037 I/smartsecurity(P 3003, T 3063): SfKUEPSwitcher.cpp: FindUEPDisableFile(189) > [36msfpmd: Called;[0m
+           sfpmd:    53.037 W/smartsecurity(P 3003, T 3076): SfTaskMessageReceiver.cpp: receiveKernelMessage(758) > [33msfpmd: called;[0m
+           sfpmd:    53.037 I/smartsecurity(P 3003, T 3077): SfTaskMessageReceiver.cpp: threadQueueHandler(920) > [36msfpmd: called;[0m
+           sfpmd:    53.050 I/smartsecurity(P 3003, T 3063): SfKUEPSwitcher.cpp: ThreadFunction(59) > [36msfpmd: --[0m
+           sfpmd:    53.051 I/smartsecurity(P 3003, T 3080): SfFs.cpp: ClearDirectory(677) > [36mlibprimitive: Files count : 0[0m
+           sfpmd:    53.051 I/smartsecurity(P 3003, T 3080): SfFs.cpp: ClearDirectory(690) > [36mlibprimitive: Clear Files count : 0[0m
+           sfpmd:    53.069 E/smartsecurity(P 3003, T 3081): SfFs.cpp: ClearDirectory(673) > [31mlibprimitive: Fail to list up files in directory ;[0m
+           sfpmd:    53.070 I/smartsecurity(P 3003, T 3081): SfFs.cpp: ClearDirectory(677) > [36mlibprimitive: Files count : 0[0m
+           sfpmd:    53.071 I/smartsecurity(P 3003, T 3081): SfFs.cpp: ClearDirectory(690) > [36mlibprimitive: Clear Files count : 0[0m
+ memUsageMonitor:    53.586 I/STABD   (P  917, T 3110): stability-monitor.cpp: isExeExtension(6941) > with pid = 3003, processPath=[/usr/bin/sfpmd]
+ memUsageMonitor:    53.592 I/STABD   (P  917, T 3110): stability-monitor.cpp: isProcessFromOpt(1374) > pid[3003]Path[/usr/bin/sfpmd]
+           sfpmd:    68.247 E/smartsecurity(P 3003, T 3076): SfNetlinkSocket.cpp: Receive(180) > [31mlibsfkc: recv msg failed: -5(Input/output error);[0m
+           sfpmd:    68.247 I/smartsecurity(P 3003, T 3076): SfKernelConnection.cpp: Receive(140) > [36mlibsfkc: Receive failed;[0m
+       resourced:    75.626 D/RESOURCED(P 4421, T 4570): proc-main.c: compare_vip_list(624) > oom_score_adj(-1000) gp_vip_process(sfpmd)
+       resourced:    75.626 D/RESOURCED(P 4421, T 4570): proc-main.c: resourced_set_vip_oomscoreadj(1695) > (sfpmd)-(3003) is VIP
+           sfpmd:   102.124 E/smartsecurity(P 3003, T 3076): SfNetlinkSocket.cpp: Receive(180) > [31mlibsfkc: recv msg failed: -5(Input/output error);[0m
+           sfpmd:   102.124 I/smartsecurity(P 3003, T 3076): SfKernelConnection.cpp: Receive(140) > [36mlibsfkc: Receive failed;[0m
+           sfpmd:   155.835 E/smartsecurity(P 3003, T 3076): SfNetlinkSocket.cpp: Receive(180) > [31mlibsfkc: recv msg failed: -5(Input/output error);[0m
+           sfpmd:   155.835 I/smartsecurity(P 3003, T 3076): SfKernelConnection.cpp: Receive(140) > [36mlibsfkc: Receive failed;[0m
+           sfpmd:   191.892 E/smartsecurity(P 3003, T 3076): SfNetlinkSocket.cpp: Receive(180) > [31mlibsfkc: recv msg failed: -5(Input/output error);[0m
+           sfpmd:   191.892 I/smartsecurity(P 3003, T 3076): SfKernelConnection.cpp: Receive(140) > [36mlibsfkc: Receive failed;[0m

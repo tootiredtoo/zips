@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Akıllı Güvenlik"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "İzleme Sonuçları"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "Kötü amaçlı bir dosya engellendi. [Dosya: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "Kötü amaçlı ağ engellendi. [Ağ: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "Kötü amaçlı işlem engellendi. [İşlem: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Şov Listesi"
+
+msgid "COM_SID_OK"
+msgstr "Tamam"
+
+msgid "COM_SID_YES"
+msgstr "Evet"
+
+msgid "COM_SID_NO"
+msgstr "Hayır"
+
+msgid "COM_SID_CLOSE"
+msgstr "Kapat"
+
+msgid "COM_SID_CANCEL"
+msgstr "İptal"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Samsung Smart TV'leri iyileştirmemize yardımcı olmak için bu kötü amaçlı yazılım dosyasını sunucuya göndermek ister misiniz?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Hata"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "Bir ağ hatası oluştu. Lütfen daha sonra yeniden deneyin."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Daima"
+
+msgid "COM_SID_ONCE"
+msgstr "Bir Kez"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Samsung The Wall'u iyileştirmemize yardımcı olmak için bu kötü amaçlı yazılım dosyasını sunucuya göndermek ister misiniz?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Engellenmiş: <<A>> öğe"

@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Б-ка на о-ві інт. т."
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Результати спостереження"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "Зловмисний файл заблоковано. [Файл: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "Зловмисну мережу заблоковано. [Мережа: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "Зловмисний процес заблоковано. [Процес: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Показати список"
+
+msgid "COM_SID_OK"
+msgstr "ОК"
+
+msgid "COM_SID_YES"
+msgstr "Так"
+
+msgid "COM_SID_NO"
+msgstr "Ні"
+
+msgid "COM_SID_CLOSE"
+msgstr "Закрити"
+
+msgid "COM_SID_CANCEL"
+msgstr "Скасув."
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Надіслати на сервер цей файл зі зловмисним програмним забезпеченням, який допоможе покращити наші продукти Samsung Smart TV?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Помилка"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "Сталася помилка мережі. Спробуйте пізніше."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Завжди"
+
+msgid "COM_SID_ONCE"
+msgstr "Один"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Надіслати на сервер цей файл зі зловмисним програмним забезпеченням, який допоможе покращити пристрій Samsung The Wall?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Заблоковано стільки елементів: <<A>>"

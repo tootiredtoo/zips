@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "स्मार्ट सुरक्षा"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "निगरानी के परिणाम"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "एक दुर्भावनापूर्ण फ़ाइल को ब्लॉक कर दिया गया. [फ़ाइल: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "एक दुर्भावनापूर्ण नेटवर्क को ब्लॉक किया गया. [नेटवर्क: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "एक दुर्भावनापूर्ण प्रक्रिया को ब्लॉक किया गया. [प्रक्रिया: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "सूची दिखाएं"
+
+msgid "COM_SID_OK"
+msgstr "ठीक"
+
+msgid "COM_SID_YES"
+msgstr "हाँ"
+
+msgid "COM_SID_NO"
+msgstr "नहीं"
+
+msgid "COM_SID_CLOSE"
+msgstr "बंद करें"
+
+msgid "COM_SID_CANCEL"
+msgstr "रद्द करें"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "क्या आप Samsung Smart TV को बेहतर बनाने में हमारी सहायता के लिए यह मैलवेयर फ़ाइल सर्वर पर भेजना चाहते हैं?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "त्रुटि"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "कोई नेटवर्क त्रुटि हुई. कृपया पुनर्प्रयास करें."
+
+msgid "COM_SID_ALWAYS"
+msgstr "हमेशा"
+
+msgid "COM_SID_ONCE"
+msgstr "एक बार"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "क्या आप Samsung The Wall को बेहतर बनाने में हमारी सहायता के लिए यह मैलवेयर फ़ाइल सर्वर पर भेजना चाहते हैं?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "ब्लॉक किया गया: <<A>> आइटम"

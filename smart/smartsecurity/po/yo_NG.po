@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Ààbò Ìyára"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Àwọn Èsì Ìtọpinpin"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "A ti dènà fáìlì aṣejàmbá kan. [Fáìlì: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "A ti dènà nẹ́tíwọ̀kì aṣejànbá kan. [Nẹ́tíwọ̀kì: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "A ti dènà ìlànà iṣẹ́ kan. [Ìlànà iṣẹ́: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Fi Àkójọ Hàn"
+
+msgid "COM_SID_OK"
+msgstr "DÁRA"
+
+msgid "COM_SID_YES"
+msgstr "Beeni"
+
+msgid "COM_SID_NO"
+msgstr "Rara"
+
+msgid "COM_SID_CLOSE"
+msgstr "Pade"
+
+msgid "COM_SID_CANCEL"
+msgstr "Fagilé"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Ṣé o fẹ́ fi fáìlì àkóràn yìi ránṣẹ́ sí olùpín náà láti ràn wà lọ́wọ́ láti ṣàmúgbòrò Samsung Smart TV?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Aṣiṣe"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "Àṣìṣe nẹ́tíwọ̀kì kan ti wáyé. Jọ̀wọ́ gbìyànjú lẹ́ẹ̀kan síi tóbáyá."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Nigba gbogbo"
+
+msgid "COM_SID_ONCE"
+msgstr "Leekan soso"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Ṣé o fẹ́ fi fáìlì àkóràn yìi ránṣẹ́ sí olùpín náà láti ràn wà lọ́wọ́ láti ṣàmúgbòrò Samsung The Wall?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Ti dènà: Nkan <<A>>"

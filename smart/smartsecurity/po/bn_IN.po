@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "স্মার্ট সিকিউরিটি"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "পর্যবেক্ষণের ফলাফলসমূহ"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "একটি ক্ষতিকারক ফাইল ব্লক করা হয়েছে। [ফাইল: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "একটি দূষিত নেটওয়ার্ক ব্লক করা হয়েছে। [নেটওয়ার্ক: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "একটি দূষিত পদ্ধতি ব্লক করা হয়েছে। [প্রক্রিয়াকরণ: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "তালিকা দেখান"
+
+msgid "COM_SID_OK"
+msgstr "ওকে"
+
+msgid "COM_SID_YES"
+msgstr "হ্যাঁ"
+
+msgid "COM_SID_NO"
+msgstr "না"
+
+msgid "COM_SID_CLOSE"
+msgstr "বন্ধ করুন"
+
+msgid "COM_SID_CANCEL"
+msgstr "বাতিল করুন"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "আপনি কী Samsung Smart TV-কে উন্নত করতে আমাদের সাহায্য করতে এই ম্যালওয়্যার ফাইলটিকে সার্ভারে পাঠাতে চান?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "ত্রুটি"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "একটি নেটওয়ার্ক ত্রুটি ঘটেছে। দয়া করে পরে আবার চেষ্টা করুন।"
+
+msgid "COM_SID_ALWAYS"
+msgstr "সর্বদা"
+
+msgid "COM_SID_ONCE"
+msgstr "একবার"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "আপনি কী Samsung The Wall-কে উন্নত করতে আমাদের সাহায্য করতে এই ম্যালওয়্যার ফাইলটিকে সার্ভারে পাঠাতে চান?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "অবরুদ্ধ করা হয়েছে: <<A>> আইটেমগুলি"

@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Խելացի անվտնգթյուն"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Վերահսկման արդյունքներ"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "Վնասակար ֆայլն արգելափակվել է: [Ֆայլ՝ <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "Վնասակար ցանցն արգելափակվել է: [Ցանց՝ <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "Վնասակար գործընթացն արգելափակվել է: [Գործընթաց՝ <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Ցույց տալ ցանկը"
+
+msgid "COM_SID_OK"
+msgstr "Լավ"
+
+msgid "COM_SID_YES"
+msgstr "Այո"
+
+msgid "COM_SID_NO"
+msgstr "Ոչ"
+
+msgid "COM_SID_CLOSE"
+msgstr "Փակել"
+
+msgid "COM_SID_CANCEL"
+msgstr "Չեղարկել"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Ուզո՞ւմ եք ուղարկել այս վնասագրի ֆայլը սպասարկիչ՝ Samsung Smart TV-ը բարելավելու համար:"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Սխալ"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "Տեղի ունեցավ ցանցի սխալ: Նորից փորձեք ավելի ուշ:"
+
+msgid "COM_SID_ALWAYS"
+msgstr "Միշտ"
+
+msgid "COM_SID_ONCE"
+msgstr "Մեկ անգամ"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Ուզո՞ւմ եք ուղարկել այս վնասագրի ֆայլը սպասարկիչ՝ Samsung The Wall-ը բարելավելու համար:"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Արգելափակված է՝ <<A>> տարր"

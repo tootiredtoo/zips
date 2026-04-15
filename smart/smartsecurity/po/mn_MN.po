@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Ухаалаг хамгаалалт"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Хяналтын үр дүн"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "Аюултай файл блоклогдсон. [Файл: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "Аюултай сүлжээ блоклогдсон. [Сүлжээ: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "Аюултай ажиллагаа блоклогдсон. [Ажиллагаа: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Жагсаалт харуулах"
+
+msgid "COM_SID_OK"
+msgstr "ОК"
+
+msgid "COM_SID_YES"
+msgstr "Тийм"
+
+msgid "COM_SID_NO"
+msgstr "Үгүй"
+
+msgid "COM_SID_CLOSE"
+msgstr "Хаах"
+
+msgid "COM_SID_CANCEL"
+msgstr "Цуцлах"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Samsung Smart TV-ийг сайжруулахад туслахын тулд серверт энэ хортон програмын талаар файл илгээхийг хүсэж байна уу?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Алдаа"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "Сүлжээний алдаа гарсан. Дараа дахин оролдоно уу."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Үргэлж"
+
+msgid "COM_SID_ONCE"
+msgstr "Нэг удаа"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Samsung The Wall-г сайжруулахад туслахын тулд серверт энэ хортон програмын талаар файл илгээхийг хүсэж байна уу?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Блоклогдсон: <<A>> зүйл"

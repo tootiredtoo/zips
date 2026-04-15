@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Aqlli xavfsizlik"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Nazorat natijalari"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "Zararli fayl bloklandi. [Fayl: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "Zararli tarmoq blokirovka qilindi. [Tarmoq: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "Zararli jarayon blokirovka qilindi. [Jarayon: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Ro'yxatni ko'rsatish"
+
+msgid "COM_SID_OK"
+msgstr "OK"
+
+msgid "COM_SID_YES"
+msgstr "Ha"
+
+msgid "COM_SID_NO"
+msgstr "Yo‘q"
+
+msgid "COM_SID_CLOSE"
+msgstr "Yopish"
+
+msgid "COM_SID_CANCEL"
+msgstr "Bekor qilish"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Haqiqatan ham Samsung Smart TV sifatini oshirish maqsadida ushbu zararli dastur faylini serverga yubormoqchimisiz?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Xatolik"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "Tarmoq xatoligi yuz berdi. Keyinroq qayta urinib ko‘ring."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Doimo"
+
+msgid "COM_SID_ONCE"
+msgstr "Bir marta"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Samsung The Wall sifatini oshirishda bizga yordam berish uchun ushbu zararli dastur faylini serverga yuborasizmi?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Blokirovka qilingan: <<A>> ta element"

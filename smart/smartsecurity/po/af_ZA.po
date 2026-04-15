@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Slim sekuriteit"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Moniteringsresultate"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "’n Kwaadwillige lêer is geblok. [Lêer: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "‘n Kwaadaardige netwerk is geblok. [Netwerk: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "‘n Kwaadaardige proses is geblok. [Proses: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Toon lys"
+
+msgid "COM_SID_OK"
+msgstr "OK"
+
+msgid "COM_SID_YES"
+msgstr "Ja"
+
+msgid "COM_SID_NO"
+msgstr "Nee"
+
+msgid "COM_SID_CLOSE"
+msgstr "Maak toe"
+
+msgid "COM_SID_CANCEL"
+msgstr "Kanselleer"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Wil jy hierdie wanware-lêer na die bediener stuur om ons te help om Samsung Smart TV's te verbeter?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Fout"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "’n Netwerkfout het ontstaan. Probeer asseblief later weer."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Altyd"
+
+msgid "COM_SID_ONCE"
+msgstr "Een keer"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Wil jy hierdie wanware-lêer na die bediener stuur om ons te help om Samsung The Wall te verbeter?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Geblok: <<A>> items"

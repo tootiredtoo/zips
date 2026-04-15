@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Nutikad turvaseaded"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Jälgimise tulemused"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "Pahatahtlik fail on blokeeritud. [Fail: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "Pahatahtlik võrk on blokeeritud. [Võrk: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "Pahatahtlik protsess on blokeeritud. [Protsess: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Kuva loend"
+
+msgid "COM_SID_OK"
+msgstr "OK"
+
+msgid "COM_SID_YES"
+msgstr "Jah"
+
+msgid "COM_SID_NO"
+msgstr "Ei"
+
+msgid "COM_SID_CLOSE"
+msgstr "Sulge"
+
+msgid "COM_SID_CANCEL"
+msgstr "Tühista"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Kas soovite saata selle ründevara faili serverisse, et aidata meil Samsung Smart TV-d täiustada?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Tõrge"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "Ilmnes võrguviga. Proovige hiljem uuesti."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Alati"
+
+msgid "COM_SID_ONCE"
+msgstr "Üks kord"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Kas soovite saata selle ründevara faili serverisse, et aidata meil Samsung The Walli täiustada?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Blokeeritud: <<A>> üksust"

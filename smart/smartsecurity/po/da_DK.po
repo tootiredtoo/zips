@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Smart sikkerhed"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Overvågningsresultater"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "En skadelig fil er blevet blokeret. [Fil: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "Et skadeligt netværk er blevet blokeret. [Netværk: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "En skadeligt proces er blevet blokeret. [Proces: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Vis liste"
+
+msgid "COM_SID_OK"
+msgstr "OK"
+
+msgid "COM_SID_YES"
+msgstr "Ja"
+
+msgid "COM_SID_NO"
+msgstr "Nej"
+
+msgid "COM_SID_CLOSE"
+msgstr "Luk"
+
+msgid "COM_SID_CANCEL"
+msgstr "Annuller"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Vil du sende denne malwarefil til serveren for at hjælpe os med at forbedre Samsung Smart TV?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Fejl"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "Der opstod en netværksfejl. Prøv igen senere."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Altid"
+
+msgid "COM_SID_ONCE"
+msgstr "Én gang"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Vil du sende denne malwarefil til serveren for at hjælpe os med at forbedre Samsung The Wall?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Blokeret: <<A>> elementer"

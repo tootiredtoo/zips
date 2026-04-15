@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Smart Security"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Sinusubaybayan ang Mga Resulta"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "May na-block na nakakapinsalang file. [File: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "May na-block na nakakapinsalang network. [Network: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "May na-block na nakakapinsalang proseso. [Proseso: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Ipakita ang Listahan"
+
+msgid "COM_SID_OK"
+msgstr "OK"
+
+msgid "COM_SID_YES"
+msgstr "Oo"
+
+msgid "COM_SID_NO"
+msgstr "Hindi"
+
+msgid "COM_SID_CLOSE"
+msgstr "Isara"
+
+msgid "COM_SID_CANCEL"
+msgstr "Kanselahin"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Gusto mo bang ipadala ang malware file na ito sa server para tulungan kaming pahusayin ang mga Samsung Smart TV?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Error"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "Nagkaroon ng error sa network. Pakisubukang muli sa ibang pagkakataon."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Palagi"
+
+msgid "COM_SID_ONCE"
+msgstr "Isang Beses"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Gusto mo bang ipadala ang malware file na ito sa server para tulungan kaming pahusayin ang Samsung The Wall?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Naka-block: <<A>> (na) item"

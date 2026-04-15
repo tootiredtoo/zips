@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Intelligens biztons."
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Eredmények figyelése"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "A rendszer blokkolt egy rosszindulatú fájlt. [Fájl: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "A rendszer blokkolt egy rosszindulatú hálózatot. [Hálózat: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "A rendszer blokkolt egy rosszindulatú folyamatot. [Folyamat: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Lista megjelen."
+
+msgid "COM_SID_OK"
+msgstr "OK"
+
+msgid "COM_SID_YES"
+msgstr "Igen"
+
+msgid "COM_SID_NO"
+msgstr "Nem"
+
+msgid "COM_SID_CLOSE"
+msgstr "Bezárás"
+
+msgid "COM_SID_CANCEL"
+msgstr "Mégse"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Elküldi ezt a kártevőfájlt a szerverre, hogy segítse a Samsung Smart TV tökéletesítését?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Hiba"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "Hálózati hiba történt. Próbálja meg később."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Mindig"
+
+msgid "COM_SID_ONCE"
+msgstr "Egyszer"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Elküldi ezt a kártevőfájlt a szerverre, hogy segítse a Samsung The Wall tökéletesítését?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Blokkolva: <<A>> elem"

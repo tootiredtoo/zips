@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "امنیت هوشمند"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "نتایج نظارت"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "فایل مخرب مسدود شده است. [فایل: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "یک شبکه مخرب مسدود شده است. [شبکه: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "یک فرایند مخرب مسدود شده است. [فرایند: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "نمایش لیست"
+
+msgid "COM_SID_OK"
+msgstr "قبول"
+
+msgid "COM_SID_YES"
+msgstr "بله"
+
+msgid "COM_SID_NO"
+msgstr "خیر"
+
+msgid "COM_SID_CLOSE"
+msgstr "بستن"
+
+msgid "COM_SID_CANCEL"
+msgstr "لغو"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "می خواهید برای کمک به بهبود Samsung Smart TV، این فایل بدافزار را به سرور ارسال کنید؟"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "خطا"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "خطای شبکه رخ داده است. لطفاً در فرصت دیگری دوباره امتحان کنید."
+
+msgid "COM_SID_ALWAYS"
+msgstr "همیشه"
+
+msgid "COM_SID_ONCE"
+msgstr "یكبار"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "می خواهید برای کمک به بهبود Samsung The Wall، این فایل بدافزار را به سرور ارسال کنید؟"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "مسدود شده: <<A>> مورد"
