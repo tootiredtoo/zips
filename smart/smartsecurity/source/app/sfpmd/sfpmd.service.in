@@ -1,0 +1,11 @@
+[Unit]
+Description=Smart Security Product daemon start
+
+[Service]
+Restart=always
+RestartSec=1
+ExecStart=@TZ_SYS_BIN@/sfpmd
+
+[Install]
+WantedBy=multi-user.target
+

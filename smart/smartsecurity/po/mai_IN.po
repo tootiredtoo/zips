@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "स्मार्ट सुरक्षा"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "परिणामक संचालन"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "एकटा द्धेषपूर्ण फ़ाइल अवरूद्ध कायल गेल. [फाइल: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "एकटा द्धेषपूर्ण नेटवर्क अवरूद्ध कायल गेल. [नेटवर्क: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "एकटा द्धेषपूर्ण प्रक्रिया अवरूद्ध कायल गेल. [प्रक्रिया: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "दृश्य सूची"
+
+msgid "COM_SID_OK"
+msgstr "ठीक"
+
+msgid "COM_SID_YES"
+msgstr "हाँ"
+
+msgid "COM_SID_NO"
+msgstr "नहि"
+
+msgid "COM_SID_CLOSE"
+msgstr "बन्द करु"
+
+msgid "COM_SID_CANCEL"
+msgstr "निरस्त"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "की अहाँ छी जे अहाँ Samsung Smart TVकेँ और उत्तम बनयबाक लेल हमरा सबहक सहायतार्थ एहि मालवेयर फ़ाइल सर्वरपर पठाबय चाहैत छी?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "अशुद्धि"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "एकटा नेटवर्क त्रुटि घटित भेल. कृप्या बादमे पुनः प्रयास करू."
+
+msgid "COM_SID_ALWAYS"
+msgstr "सदिखन"
+
+msgid "COM_SID_ONCE"
+msgstr "एक बेर"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "की अहाँ छी जे अहाँ Samsung The Wall केँ और उत्तम बनयबाक लेल हमरा सबहक सहायतार्थ एहि मालवेयर फ़ाइल सर्वरपर पठाबय चाहैत छी?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "अवरूद्ध: <<A>> तत्व सब"

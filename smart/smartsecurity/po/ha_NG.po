@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Tsaro na Dabara"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Sakamakon Sa-ido"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "An toshe wani fayil mai cutarwa. [Fayil: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "An sami wata hanyar sadarwa mai cutarwa kuma an killace ta. [Hanyar sadarwa: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "An sami wata hanya mai cutarwa kuma an killace shi. [Hanya: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Nuna Jeri"
+
+msgid "COM_SID_OK"
+msgstr "Ya yi"
+
+msgid "COM_SID_YES"
+msgstr "Ee"
+
+msgid "COM_SID_NO"
+msgstr "Babu"
+
+msgid "COM_SID_CLOSE"
+msgstr "Rufe"
+
+msgid "COM_SID_CANCEL"
+msgstr "Fasawa"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Kana son aika wannan fayil na malwaya zuwa sabar don taimaka mana inganta Samsung Smart TV?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Kskr."
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "Wani kuskuren hanyar sadarwa ya auku. Sake gwadawa daga baya."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Ko yaushe"
+
+msgid "COM_SID_ONCE"
+msgstr "Yar daya"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Kana son aika wannan fayil na malwaya zuwa sabar don taimaka mana inganta Samsung The Wall?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "An toshe: Abubuwa <<A>>"

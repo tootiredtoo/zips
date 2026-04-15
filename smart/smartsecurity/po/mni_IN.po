@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "স্মার্ট সেক্যুরিটি"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "মোনিটর তৌবগী ফলশীং"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "অমাঙবা থোকহনবা য়াবা ফাইল অমা ব্লোক তৌরে. [ফাইল: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "অমাঙবা থোকহনবা য়াবা নেটৱার্ক অমা ব্লোক তৌরে. [নেটৱার্ক: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "অমাঙবা থোকহনবা য়াবা প্রোসেস অমা ব্লোক তৌরে. [প্রোসেস: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "লিস্ট উতলু"
+
+msgid "COM_SID_OK"
+msgstr "য়ারে"
+
+msgid "COM_SID_YES"
+msgstr "হোয়"
+
+msgid "COM_SID_NO"
+msgstr "নত্তে"
+
+msgid "COM_SID_CLOSE"
+msgstr "খুমজিনবা"
+
+msgid "COM_SID_CANCEL"
+msgstr "ককথতলু"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "ঐখোয়বু Samsung Smart TVs ফগৎহনবদা মতেং পাংনবা নহাক মেলৱায়র ফাইল অসি সার্ভরদা থাবা পাম্ব্রা?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "অরানবা"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "নেটৱার্ক্কী অশোয়বা অমা থোকখ্রে. চানবীদুনা কোন্না অমুক হন্না পাংথোকপীয়ু."
+
+msgid "COM_SID_ALWAYS"
+msgstr "মতম চুপ্পদা"
+
+msgid "COM_SID_ONCE"
+msgstr "অমুরক"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "ঐখোয়বু Samsung The Wall s ফগৎহনবদা মতেং পাংনবা নহাক মেলৱায়র ফাইল অসি সার্ভরদা থাবা পাম্ব্রা?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "ব্লোক তৌখ্রে: <<A>> আইটেমশিং"

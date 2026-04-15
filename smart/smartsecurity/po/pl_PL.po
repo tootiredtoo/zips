@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Intelig. zabezpiecz."
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Wyniki monitorowania"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "Złośliwy plik został zablokowany. [Plik: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "Złośliwa sieć została zablokowana. [Sieć: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "Złośliwy proces został zablokowany. [Proces: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Pokaż listę"
+
+msgid "COM_SID_OK"
+msgstr "OK"
+
+msgid "COM_SID_YES"
+msgstr "Tak"
+
+msgid "COM_SID_NO"
+msgstr "Nie"
+
+msgid "COM_SID_CLOSE"
+msgstr "Zamknij"
+
+msgid "COM_SID_CANCEL"
+msgstr "Anuluj"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Czy chcesz przesłać ten plik raportu o szkodliwym oprogramowaniu na serwer, aby pomóc nam udoskonalić telewizor Samsung Smart TV?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Błąd"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "Wystąpił błąd sieci. Spróbuj ponownie później."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Zawsze"
+
+msgid "COM_SID_ONCE"
+msgstr "1 raz"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Czy chcesz przesłać ten plik raportu o szkodliwym oprogramowaniu na serwer, aby pomóc nam udoskonalić urządzenie Samsung The Wall?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Zablokowane: Elementów: <<A>>"

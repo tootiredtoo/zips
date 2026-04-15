@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Smart-Sicherheit"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Überwachungsergebnisse"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "Eine schädliche Datei wurde gesperrt. [Datei: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "Ein schädliches Netzwerk wurde gesperrt. [Netzwerk: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "Ein schädlicher Prozess wurde gesperrt. [Prozess: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Liste anzeigen"
+
+msgid "COM_SID_OK"
+msgstr "OK"
+
+msgid "COM_SID_YES"
+msgstr "Ja"
+
+msgid "COM_SID_NO"
+msgstr "Nein"
+
+msgid "COM_SID_CLOSE"
+msgstr "Schließen"
+
+msgid "COM_SID_CANCEL"
+msgstr "Abbrechen"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Möchten Sie diese Schadsoftwaredatei an den Server senden und uns helfen, Samsung Smart TV zu verbessern?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Fehler"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "Es ist ein Netzwerkfehler aufgetreten. Später erneut versuchen."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Immer"
+
+msgid "COM_SID_ONCE"
+msgstr "Einmal"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Möchten Sie diese Schadsoftwaredatei an den Server senden und uns helfen, Samsung The Wall zu verbessern?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Gesperrt: <<A>> Elemente"

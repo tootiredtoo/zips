@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "ସ୍ମାର୍ଟ ସୁରକ୍ଷା"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "ତତ୍ତ୍ୱାବଧାନ ଫଳାଫଳ"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "ଏକ କ୍ଷତିକାରକ ଫାଇଲ୍ ଅବରୋଧ କରାଯାଇଛି. [ଫାଇଲ୍: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "ଏକ କ୍ଷତିକାରକ ନେଟୱର୍କ ଅବରୋଧ କରାଯାଇଛି. [ନେଟ୍‌ୱାର୍କ୍: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "ଏକ କ୍ଷତିକାରକ ପ୍ରକ୍ରିୟା ଅବରୋଧ କରାଯାଇଛି. [ପ୍ରକ୍ରିୟା: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "ଦେଖାଇବା ତାଲିକା"
+
+msgid "COM_SID_OK"
+msgstr "ଠିକ୍‌"
+
+msgid "COM_SID_YES"
+msgstr "ହଁ"
+
+msgid "COM_SID_NO"
+msgstr "ନାହିଁ"
+
+msgid "COM_SID_CLOSE"
+msgstr "ବନ୍ଦ କରନ୍ତୁ"
+
+msgid "COM_SID_CANCEL"
+msgstr "ବାତିଲ୍‌"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Samsung Smart TVଗୁଡ଼ିକରେ ଉନ୍ନତି କରିବାରେ ଆମକୁ ସାହାଯ୍ୟ କରିବା ପାଇଁ ଏହି ମାଲଓୟାର ଫାଇଲଟି ସର୍ଭରକୁ ପଠାଇବାକୁ ଚାହୁଁଛନ୍ତି କି?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "ତ୍ରୁଟି"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "ଏକ ନେଟୱାର୍କ୍‌ ତୃଟି ହୋଇଛି. ଦୟାକରି ପରେ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ."
+
+msgid "COM_SID_ALWAYS"
+msgstr "ସର୍ବଦା"
+
+msgid "COM_SID_ONCE"
+msgstr "ଥରେ"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Samsung The Wall କୁ ଉନ୍ନତ କରିବାରେ ଆମକୁ ସାହାଯ୍ୟ କରିବା ପାଇଁ ଏହି ମାଲଓ୍ୱେୟାର୍ ଫାଇଲ୍ ଟି ସର୍ଭର୍ କୁ ପଠାଇବାକୁ ଚାହୁଁଛନ୍ତି କି?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "ବ୍ଲକ୍ ହୋଇଗଲା: <<A>> ଆଇଟମ୍​ଗୁଡ଼ିକ"

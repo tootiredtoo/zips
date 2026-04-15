@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Älykäs suojaus"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Valvonnan tulokset"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "Estetty haitallinen tiedosto. [Tiedosto: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "Estetty haitallinen verkko. [Verkko: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "Estetty haitallinen prosessi. [Prosessi: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Näytä luettelo"
+
+msgid "COM_SID_OK"
+msgstr "OK"
+
+msgid "COM_SID_YES"
+msgstr "Kyllä"
+
+msgid "COM_SID_NO"
+msgstr "Ei"
+
+msgid "COM_SID_CLOSE"
+msgstr "Sulje"
+
+msgid "COM_SID_CANCEL"
+msgstr "Peruuta"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Haluatko lähettää tämän haittaohjelmatiedoston palvelimelle auttaaksesi meitä parantamaan Samsung Smart TV:itä?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Virhe"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "Verkkovirhe. Yritä myöhemmin uudelleen."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Aina"
+
+msgid "COM_SID_ONCE"
+msgstr "Kerran"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Haluatko lähettää tämän haittaohjelmatiedoston palvelimelle auttaaksesi meitä parantamaan Samsung The Wallia?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Estetty: <<A>> kohdetta"

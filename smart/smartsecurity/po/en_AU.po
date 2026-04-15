@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Smart Security"
+
+msgid "TV_SID_SECURITY_PORIVED_PROTECT_DEVICE_VIRUSES"
+msgstr "Security provided to protect your display device and connected storage devices against viruses includes"
+
+msgid "COM_RESOURCE_TEXT_SCAN_PROCESSING_TITLE"
+msgstr "Scanning"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY_MENU2"
+msgstr "Scan"
+
+msgid "TV_SID_INSPECT_DISPLAY_DEVICE_CONNECTED_STORAGE_VIRUSE"
+msgstr "Inspect your display device and connected storage devices to check for viruses."
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY_MENU3"
+msgstr "Isolated List"
+
+msgid "TV_SID_MENU_CHECK_THE_LIST_OF_ITEMS_THAT_HAVE_BEEN_ISOLATED_AS_THEY_CONTAIN_VIRUSES_KR_17"
+msgstr "Check the list of items that have been isolated as they contain viruses."
+
+msgid "TV_SID_REAL_TIME_MONITORING"
+msgstr "Real-Time Monitoring"
+
+msgid "TV_SID_SCAN_FOR_VIRUSES_BY_MONITORING_REAL_TIME"
+msgstr "Scans for viruses by monitoring the display device in real time."
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Monitoring Results"
+
+msgid "TV_SID_CHECK_LIST_FILES_BLOCKED"
+msgstr "Check the list of files, networks, and processes that have been blocked."
+
+msgid "TV_SID_SCAN_RSEULTS"
+msgstr "Scan Results"
+
+msgid "COM_RESOURCE_TEXT_NOT_FOUND_MALWARE"
+msgstr "No viruses found."
+
+msgid "TV_SID_SELECT_ITEMS_ISOLATE_VIRUSES"
+msgstr "Select items to isolate viruses."
+
+msgid "COM_RESOURCE_TEXT_SCAN_ITEM_LIST_BUTTON_1"
+msgstr "Isolate"
+
+msgid "TV_SID_SELECT_ITEM_RECOVER_ISOLATED"
+msgstr "Select items to recover from the Isolated List."
+
+msgid "COM_RESOURCE_TEXT_RECOVER"
+msgstr "Recover"
+
+msgid "TV_SID_SELECTED_ITEM__RECOVERED"
+msgstr "The selected items have been recovered."
+
+msgid "TV_SID_RECOVER_SELECTED_ITEM"
+msgstr "Do you want to recover the selected items?"
+
+msgid "TV_SID_SCANNING_THE_SYSTEM_DOT"
+msgstr "Scanning the system…"
+
+msgid "TV_SID_SCANNING_EXTERNAL_DEVICE_DOT"
+msgstr "Scanning the external device…"
+
+msgid "TV_SID_MIX_VIRUS_INFECTED_FILES"
+msgstr "Virus-infected Files: <<A>>"
+
+msgid "TV_SID_MPREAPARING_SCAN_SYSTEM"
+msgstr "Preparing to scan the system…"
+
+msgid "TV_SID_MIX_PREPARING_FILES"
+msgstr "Preparing <<A>> files…"
+
+msgid "COM_RESOURCE_TEXT_ISOLATE_FAIL"
+msgstr "The items were not added to the Isolated List. Please try again."
+
+msgid "COM_RESOURCE_TEXT_DELETE_FAIL"
+msgstr "The selected items were not deleted. Please try again."
+
+msgid "COM_RESOURCE_TEXT_SCAN_ITEM_BLACK_LIST_RESULT_POSTFIX"
+msgstr "Select items to recover from Isolated List."
+
+msgid "COM_RESOURCE_TEXT_RECOVER_FAIL"
+msgstr "The selected items were not recovered. Please try again."
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "A malicious file has been blocked. [File: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "A malicious network has been blocked. [Network: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "A malicious process has been blocked. [Process: <<A>>]"
+
+msgid "COM_RESOURCE_TEXT_RESTORE_CHOICE"
+msgstr "Cancel the scan?"
+
+msgid "COM_SID_PLEASE_WAIT_DOT"
+msgstr "Please wait."
+
+msgid "TV_SID_CHECK_LIST_ITEM_VIRUSES"
+msgstr "Check the list of items that have been Isolated for containing viruses."
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Blocked: <<A>> items"
+
+msgid "SID_ALLOW"
+msgstr "Allow"
+
+msgid "SID_DENY"
+msgstr "Deny"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Show List"
+
+msgid "COM_SID_OK"
+msgstr "OK"
+
+msgid "COM_SID_YES"
+msgstr "Yes"
+
+msgid "COM_SID_NO"
+msgstr "No"
+
+msgid "COM_SID_OFF"
+msgstr "Off"
+
+msgid "COM_SID_ON"
+msgstr "On"
+
+msgid "COM_SID_CLOSE"
+msgstr "Close"
+
+msgid "SID_DETAILS"
+msgstr "Details"
+
+msgid "COM_SID_CANCEL"
+msgstr "Cancel"
+
+msgid "COM_IDS_CATEGORY_CALENDAR_BUTTON"
+msgstr "Button"
+
+msgid "SID_ON"
+msgstr "On"
+
+msgid "SID_OFF"
+msgstr "Off"
+
+msgid "COM_SID_SEND"
+msgstr "Send"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Do you want to send this malware file to the server to help us improve Samsung Smart TVs?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Error"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "A network error occurred. Please try again later."
+
+msgid "TV_SID_MIX_ITEMS_FOUND_SELECT_ITEM_ISOLATE_MALWARE"
+msgstr "<<A>> items have been found. Select items to isolate malware."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Always"
+
+msgid "COM_SID_ONCE"
+msgstr "Once"
+
+msgid "TV_SID_NOT_ENOUGH_STORAGE_SPACE_MSG"
+msgstr "Not enough storage space. Free some space and retry."
+
+msgid "TV_SID_USB_STORAGE_DEVICE_DIS_CNT"
+msgstr "The USB storage device is disconnected."
+
+msgid "TV_SID_ISOLATING_DOT"
+msgstr "Isolating..."
+
+msgid "TV_SID_RECOVERING_DOT"
+msgstr "Recovering..."
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Do you want to send this malware file to the server to help us improve Samsung The Wall?"

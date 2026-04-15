@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Chytré zabezpečení"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Monitorování výsledků"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "Byl zablokován škodlivý soubor. [Soubor: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "Byla zablokována škodlivá síť. [Síť: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "Byl zablokován škodlivý proces. [Proces: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Zobrazit seznam"
+
+msgid "COM_SID_OK"
+msgstr "OK"
+
+msgid "COM_SID_YES"
+msgstr "Ano"
+
+msgid "COM_SID_NO"
+msgstr "Ne"
+
+msgid "COM_SID_CLOSE"
+msgstr "Zavřít"
+
+msgid "COM_SID_CANCEL"
+msgstr "Zrušit"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Opravdu chcete zaslat tento malwarový soubor na server a pomoci nám vylepšit Samsung Smart TV?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Chyba"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "Došlo k chybě sítě. Opakujte akci později."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Vždy"
+
+msgid "COM_SID_ONCE"
+msgstr "Jednou"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Opravdu chcete zaslat tento malwarový soubor na server a pomoci nám vylepšit Samsung The Wall?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Blokováno: <<A>> položek"

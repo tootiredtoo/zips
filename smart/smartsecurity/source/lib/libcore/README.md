@@ -1,0 +1,3 @@
+# SF LIBCORE #
+
+Core library

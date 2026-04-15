@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Mkpọchi Amamịghe"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Nsonaazụ Nnyocha"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "Egbochiela faịlụ adịgboroja. [Faịlụ: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "Egbochiela netwọk adịgboroja. [Netwọk: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "Egbochiela ụkpụrụ adịgboroja. [Ụkpụrụ: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Gosi Ndepụta"
+
+msgid "COM_SID_OK"
+msgstr "ỌDM."
+
+msgid "COM_SID_YES"
+msgstr "Ee"
+
+msgid "COM_SID_NO"
+msgstr "Mba"
+
+msgid "COM_SID_CLOSE"
+msgstr "Mechie"
+
+msgid "COM_SID_CANCEL"
+msgstr "Kagbuo"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Ị chọrọ iziga faịlụ malụwe a na sava iji nyere anyị aka imelite Samsung Smart TV?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Mperi"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "Mperi netwọk dapụtara. Biko nwaa ọzọ ma emechaa."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Mgbe niile"
+
+msgid "COM_SID_ONCE"
+msgstr "Otu ugboro"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Ị chọrọ iziga faịlụ malụwe a na sava iji nyere anyị aka imelite Samsung The Wall?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Egbochiri: Ihe <<A>>"

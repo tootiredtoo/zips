@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Viedā drošība"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Uzraudzības rezultāti"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "Ļaunprātīgs fails ir bloķēts. [Fails: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "Ir atrasts un bloķēts ļaunprātīgs tīkls. [Tīkls: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "Ir atrasts un bloķēts ļaunprātīgs process. [Process: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Rādīt sarakstu"
+
+msgid "COM_SID_OK"
+msgstr "Labi"
+
+msgid "COM_SID_YES"
+msgstr "Jā"
+
+msgid "COM_SID_NO"
+msgstr "Nē"
+
+msgid "COM_SID_CLOSE"
+msgstr "Aizvērt"
+
+msgid "COM_SID_CANCEL"
+msgstr "Atcelt"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Vai tiešām vēlaties sūtīt serverim šo ļaunprogrammatūras failu, lai palīdzētu uzlabot Samsung Smart TV?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Kļūda"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "Radās tīkla kļūda. Lūdzu, vēlāk mēģiniet vēlreiz."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Vienmēr"
+
+msgid "COM_SID_ONCE"
+msgstr "Vienreiz"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Vai tiešām vēlaties sūtīt serverim šo ļaunprogrammatūras failu, lai palīdzētu uzlabot Samsung The Wall?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Bloķēti: <<A>> vienumi"

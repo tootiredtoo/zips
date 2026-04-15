@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "स्मार्ट सुरक्षा"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "देखरेखीचे निकाल"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "एक दुबावीत फायल आडायल्या. [फायल: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "एक हानीकारक नॅटवर्क आडायला. [नेटवर्क: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "एक हानीकारक प्रक्रिया आडायल्या. [प्रक्रिया: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "वळेरी दाखवची"
+
+msgid "COM_SID_OK"
+msgstr "ओके"
+
+msgid "COM_SID_YES"
+msgstr "हय"
+
+msgid "COM_SID_NO"
+msgstr "ना"
+
+msgid "COM_SID_CLOSE"
+msgstr "बंद करचें"
+
+msgid "COM_SID_CANCEL"
+msgstr "रद्द करचें"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "आमची Samsung Smart TV सुदारूंक आमकां आदार करूंक तुमकां ह्या मालवॅराचो फायल सर्वराक धाडूंक सोदतात?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "चूक"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "नॅटवर्क चूक उप्रासल्या. उपकार करून परत यत्न करचो."
+
+msgid "COM_SID_ALWAYS"
+msgstr "सदांच"
+
+msgid "COM_SID_ONCE"
+msgstr "एकदांच"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "आमची Samsung The Wall सुदारूंक आमकां आदार करूंक तुमकां ह्या मालवॅराचो फायल सर्वराक धाडूंक सोदतात?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "आडायल्ले: <<A>> वस्ती"

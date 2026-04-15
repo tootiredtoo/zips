@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "ಸ್ಮಾರ್ಟ್ ರಕ್ಷಣೆ"
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "ಮೊನಿಟರಿಂಗ್ ಫಲಿತಾಂಶೊಲು"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "ಒಂಜಿ ದುರುದ್ದೇಶೊದ ಫೈಲ್‍ ನ್ ಬ್ಲಾಕ್ ಮಲ್ತುಂಡು. [ಫೈಲ್: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "ಒಂಜಿ ದುರುದ್ದೇಶೊದ ನೆಟ್ವರ್ಕ್‌ನ್ ಬ್ಲಾಕ್ ಮಲ್ತ. [ ನೆಟ್ವರ್ಕ್ <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "ಒಂಜಿ ದುರುದ್ದೇಶೊದ ಪ್ರಕ್ರಿಯೆನ್ ಬ್ಲಾಕ್ ಮಲ್ತ್. [ಪ್ರಕ್ರಿಯೆ: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "ಲಿಸ್ಟ್ ತೋಪಾಲೆ"
+
+msgid "COM_SID_OK"
+msgstr "ಸರಿ"
+
+msgid "COM_SID_YES"
+msgstr "ಅಂದ್"
+
+msgid "COM_SID_NO"
+msgstr "ಅತ್ತ್"
+
+msgid "COM_SID_CLOSE"
+msgstr "ಮುಚ್ಚಿಲೆ"
+
+msgid "COM_SID_CANCEL"
+msgstr "ರದ್ದ್"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Samsung Smart TV ನ್ ಸುಧಾರಿಸಾವರೆ ಎಂಕಲೆಗ್ ಸಹಾಯ ಮಲ್ಪರೆಗಾದ್ ಈ ಮಾಲ್‌ವೇರ್ ಫೈಲ್‍ನ್ ಸರ್ವರ್‌ಗ್ ಕಡಪುಡ್‌ರೆ ಈರ್ ಬಯಸುವರಾ?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "ತೊಂದರೆ"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "ಒಂಜಿ ನೆಟ್ವರ್ಕ್ ದೋಷ ಎದುರಾದುಂಡು. ದಯದೀದ್ ಒಂತೆ ಪೊರ್ತಾಯಿಬೊಕ್ಕ ಕುಡೊರ ಪ್ರಯತ್ನಿಸಾಲೆ."
+
+msgid "COM_SID_ALWAYS"
+msgstr "ಯಾಪಲ"
+
+msgid "COM_SID_ONCE"
+msgstr "ಒರ"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Samsung The Wall ನ್ ಸುಧಾರಿಸಾವರೆ ಎಂಕಲೆಗ್ ಸಹಾಯ ಮಲ್ಪರೆಗಾದ್ ಈ ಮಾಲ್‌ವೇರ್ ಫೈಲ್‍ನ್ ಸರ್ವರ್‌ಗ್ ಕಡಪುಡ್‌ರೆ ಈರ್ ಬಯಸುವರಾ?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "ಬ್ಲಾಕ್‍ಆತಿನವು: <<A>> ಐಟಮುಲ್"

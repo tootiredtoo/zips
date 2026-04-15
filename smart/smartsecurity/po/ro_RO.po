@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "COM_RESOURCE_TEXT_SMART_SECURITY"
+msgstr "Securitate intelig."
+
+msgid "TV_SID_MONITORING_RESULTS"
+msgstr "Rezultate monitorizare"
+
+msgid "TV_SID_SECURITY_MIX_MALICIOUS_FILE_BLOCKED_FILE"
+msgstr "A fost blocat un fișier rău intenționat. [Fișier: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_NETWROK_BLOCKED"
+msgstr "A fost blocată o rețea rău intenționată. [Rețea: <<A>>]"
+
+msgid "TV_SID_MIX_MALICIOUS_PROCESS_BLOCKED"
+msgstr "A fost blocat un proces rău intenționat. [Proces: <<A>>]"
+
+msgid "TV_SID_SHOW_LIST"
+msgstr "Afișare listă"
+
+msgid "COM_SID_OK"
+msgstr "OK"
+
+msgid "COM_SID_YES"
+msgstr "Da"
+
+msgid "COM_SID_NO"
+msgstr "Nu"
+
+msgid "COM_SID_CLOSE"
+msgstr "Închidere"
+
+msgid "COM_SID_CANCEL"
+msgstr "Anulare"
+
+msgid "TV_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Sigur doriți să trimiteți pe server acest fișier privind programele malware pentru a ne ajuta să îmbunătățim Samsung Smart TV?"
+
+msgid "COM_SID_ERROR_KR_ERROR"
+msgstr "Eroare"
+
+msgid "TV_SID_NETWORK_ERROR_OCCURRED_TRY_AGAIN"
+msgstr "A apărut o eroare de rețea. Încercați din nou mai târziu."
+
+msgid "COM_SID_ALWAYS"
+msgstr "Întotdeauna"
+
+msgid "COM_SID_ONCE"
+msgstr "O dată"
+
+msgid "WALL_SID_SEND_MALWARE_FILE_SERVER_TO_HELP_IMPROVE_SAMRT_TV"
+msgstr "Sigur trimiteţi pe server acest fişier privind programele malware pentru a ne ajuta să îmbunătăţim dispozitivul Samsung The Wall?"
+
+msgid "TV_SID_MIX_BLOCKED_ITEMS"
+msgstr "Blocate: <<A>> elemente"
