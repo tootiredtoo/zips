@@ -41,8 +41,8 @@ public: // methods
     SF_STATUS LeaveGroup( Int32 group ) const;
     SF_STATUS SetReceiveBufferSize( Uint32 size );
     SF_STATUS GetReceiveBufferSize( Uint32& size ) const;
+    SF_STATUS EnableNoEnobufs();
     Bool IsConnected() const;
-
 private: // methods
     SF_STATUS CreateSocket();
     SF_STATUS BindSocket();

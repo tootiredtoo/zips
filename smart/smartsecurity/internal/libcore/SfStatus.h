@@ -45,6 +45,7 @@ typedef enum
     SF_STATUS_DESTINATION_UNREACHABLE = (-10),
 	SF_STATUS_NOT_ENOUGH_RESOURCE = (-11),  ///< Even though resource is not enough, sfd must not block it
     SF_STATUS_USB_DEVICE_OFF = (-12),       ///< When USB device was off
+    SF_STATUS_OVERRUN = (-13),              ///< Netlink socket receive buffer overrun; messages were dropped by kernel
     SF_STATUS_MAX = (Int) -1 ///< Max value
 } SF_STATUS;
 

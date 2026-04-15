@@ -135,13 +135,29 @@ SF_STATUS SfKernelConnection::LeaveGroup( SF_OPERATION_TYPE group )
 */
 SF_STATUS SfKernelConnection::Receive( SfPacket*& pPacket )
 {
-    if ( SF_FAILED( m_pSocket->Receive() ) )
+    SF_STATUS result = m_pSocket->Receive();
+
+    if ( result == SF_STATUS_OVERRUN )
+    {
+        /**
+         * The netlink socket's kernel-side receive buffer overflowed: one or more security
+         * events were dropped before this call.  The socket itself is still healthy and will
+         * deliver subsequent messages normally.  Log at warning level and continue — returning
+         * OVERRUN lets callers optionally track / alert on lost events while keeping the
+         * framework running.
+         */
+        SF_LOG_W( "Kernel netlink buffer overrun detected; some security events were lost;" );
+        pPacket = NULL;
+        return SF_STATUS_OVERRUN;
+    }
+
+    if ( SF_FAILED( result ) )
     {
         SF_LOG_I( "Receive failed;" );
         return SF_STATUS_FAIL;
     }
-    pPacket = m_pPacket;
 
+    pPacket = m_pPacket;
     return SF_STATUS_OK;
 }
 
